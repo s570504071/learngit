@@ -1,0 +1,1529 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="dns-prefetch" href="//static.anquan.org">
+		<link rel="dns-prefetch" href="http://openapi.anquan.org">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>嘀哩嘀哩_信誉评估报告_www.dilidili.wang「安全联盟」</title>
+		<meta name="description" content="安全联盟评估报告(www.dilidili.wang)是安全联盟的权威评估，通过本评估用户可以查询到该网站是否存在钓鱼欺诈、恶意篡改、是否已被黑客入侵。" /> 
+		<meta name="keywords" content="嘀哩嘀哩,www.dilidili.wang,安全联盟评估报告,安全查询,评估,网站安全,钓鱼欺诈查询,黑客,入侵,网页挂马"/>
+		<link data-role="core" type="text/css" rel="stylesheet" href="//static.anquan.org/static/bootstrap/css/bootstrap.css?v=1504487166.39" />
+		<link data-role="core" rel="stylesheet" href="//static.anquan.org/static/css/base.css?v=1504487166.39" />
+		
+<link type="text/css" rel="stylesheet" href="//static.anquan.org/static/css/ks_ui_v1.0.css?v=1504487166.39" />
+<link type="text/css" rel="stylesheet" href="//static.anquan.org/static/profile/css/page_profile_v2.css?v=1504487166.39" />
+
+		<style type="text/css"></style>
+		<script src="//static.anquan.org/static/js/jquery.1.7.2-underscore.1.3.1-bootstrap.min.js?v=1504487166.39"></script>
+		<!--[if lt IE 9]>
+        <script  src="//static.anquan.org/static/common/js/html5_v2.1pre.js?v=1504487166.39"></script>
+		<![endif]-->
+		
+<script>
+	var checker = function(){  };
+	checker()
+</script>
+
+		<link rel="shortcut icon" href="//static.anquan.org/static/images/favicon.ico">
+	</head>
+	<body >
+		
+<div id="header" class="anquan_navbar">
+    <div class="header-bd w1000 ">
+        <div class="user-nav clearfix"><h1><a href="//www.anquan.org/" target="_self"><img src="//static.anquan.org/static/common/images/logo2.png" alt="安全联盟" title="安全联盟"></a></h1><div class="user-center"><ul class="hd_nav"><li class="u-common"><a href="//www.anquan.org/authorize/register/" target="_self">注册</a></li><li class="u-common"><a href="//www.anquan.org/authorize/login/" target="_self">登录</a></li><script type="text/javascript">
+                            var aq_user_anonymouse = true;
+                        </script></ul></div><div class="fake-search clearfix"><input type="text" placeholder="网站信誉一查便知" class="txt fl"><a href="javascript:;" class="ks-btn-green fl J_search_site">查询</a></div></div><div class="site-nav"><ul class="clearfix"><li><div class="s-hd">资讯中心</div><div class="s-item"><a target="_self" href="//www.anquan.org/news?channel=faithful">诚信要闻</a><a target="_self" href="//www.anquan.org/news?channel=authoritative">权威发布</a></div></li><li><div class="s-hd">侵权举报中心</div><div class="s-item"><a target="_self" href="//accusation.anquan.org/">我要举报</a><a target="_self" href="//exposure.anquan.org/">曝光台</a></div></li><li><div class="s-hd">可信认证中心</div><div class="s-item"><a target="_blank" class="-sv-no-popup" href="//www.pinpaibao.com.cn/intro/">可信认证</a><a target="_blank" href="//v.anquan.org/">信誉档案库</a><a id="nav-cancel-auth" target="_self" href="//www.anquan.org/cancel_auth/">风险预警</a></div></li><li><div class="s-hd">安全服务中心</div><div class="s-item"><a target="_self" href="//www.anquan.org/news?channel=secure">安全公告</a><a id="nav-appeal-verify" target="_self" href="//appeal.anquan.org/">申请解封</a><a target="_blank" href="http://zhanzhang.anquan.org/">站长平台</a></div></li><li><div class="s-hd">关于我们</div><div class="s-item"><a id="nav-aq-intro" target="_self" href="//about.anquan.org/">安全联盟介绍</a><a id="nav-aq-join" target="_self" href="//join.anquan.org/">加入我们</a></div></li></ul></div>
+    </div>
+</div>
+<div class="modal" id="sheet" tabindex="-1" style="display:none">
+    <a href="javascript:void(0)" class="close" data-dismiss="modal">×</a>
+    <div class="modal-header">
+        <div class="modal_title">登录安全联盟</div>
+    </div>
+    <div class="modal-body sheet-body">
+    <div class="body">
+        <div class="login-connect">
+            <h5>使用合作网站帐号登录</h5>
+            <div>
+                <a id="qq_login_btn" href="/login/?type=qq&amp;act=auth" class="scanv-blue" style="width:86px;"><i class="sprite-icon_login_btn_qq login-icon-third-party"></i>QQ帐号</a>
+                <a id="baidu_login_btn" href="/login/?type=baidu&amp;act=auth" class="m-btn-blue02"><i class="icon_login_btn_baidu login-icon-third-party"></i>百度帐号</a>
+                <a id="weibo_login_btn" href="/login/?type=weibo&amp;act=auth" class="scanv-red"><i class="sprite-icon_login_btn_weibo login-icon-third-party"></i>新浪微博</a>
+            </div>
+            <p class="less">未注册过安全联盟也可以直接登录哦</p>
+        </div>
+        <div class="login-form">
+            <h5>使用注册邮箱或用户名登录</h5>
+            <form id="auth_form" action="/login/?type=email" method="post" class="Form FancyForm AuthForm">
+                <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='ctQH3x4NoT10KGxHxYDJ4DhVRFWqFhRz' /></div>
+                <input id="my_next_url" name='my_next_url' type='hidden' value=""/>
+                <ul>
+                    <li class="clearfix">
+                        <div class="input email">
+                            <input id="login_email" class="holder"  autocomplete ="off"  name="email" type="text" value=""/><span style="width:30px;height:30px;margin:3px;" class="fff"></span>
+                            <label>安全联盟注册邮箱或用户名</label>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="input password" style="margin:0;">
+                            <input id="login_password"  autocomplete="off" name="password" type="password"/><span style="width:30px;height:30px;margin:3px;" class="fff"></span>
+                            <label>密码</label>
+                        </div>
+                    </li>
+                </ul>
+                <div id="captcha_div" class="input captcha-div captcha-row hide">
+                    <span>验证码：</span>
+                    <input type="text" id="captcha" name="captcha" maxlength="4" autocomplete="off" style="ime-mode:disabled" />
+                    <img src="/captcha/" alt="验证码" class="captcha" onclick="refresh_captcha(this)"/>
+                    <a href="javascript:void(0);" onclick="refresh_captcha(this);">换一张</a>
+                </div>
+                <div class="clearfix">
+                    <div class="non_inputs" style="width:50%;" >
+                        <a id="login_submit" href="javascript:void(0);" onclick="submitLogin();" class="scanv-blue" style="margin:0;padding:4px 10px;line-height:18px;width:47px;font-size:16px;">登录</a>
+                    </div>
+                    <div class="fr fgt_psw" style="margin-top:4px;">
+                        <a href="/authorize/forget_password/" style="font-size:12px;line-height:18px;" target="_self">忘记密码</a>
+                    </div>
+                    <div class="lg_mobile_register fr" style="display:none">
+                        <a href="/login/?need_back=1">注册</a>
+                    </div>
+                </div>
+            </form>
+            <div id="reset_msg" style="display: none;" class="success"></div>
+        </div>
+    </div>
+  </div>
+</div>
+<script>
+    $(".J_search_site").click(function(){
+        var site = $(this).prev().val(),
+        fn_is_url = function(value) {
+            return /^[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})*\.[a-zA-Z]{2,8}(?::\d{2,5})?$/.test($.trim(value)) || /^(((https?|s?ftp):\/\/)?)(((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:)*@)?(((\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5]))|((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?)(:\d*)?)(\/((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)+(\/(([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)*)*)?)?(\?((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|[\uE000-\uF8FF]|\/|\?)*)?(#((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|\/|\?)*)?$/i.test($.trim(value));
+        };
+        if (!site){
+            mtip("请输入要查询的域名!", "error");
+        }else if(!fn_is_url(site)){
+            mtip("请输入合法的域名!", "error");
+        }
+        else {
+            window.location.href = "//www.anquan.org/s/" + site;
+        }
+    });
+    $(".fake-search input").keyup(function(e){
+        if( 13 == e.keyCode ){
+            $(".J_search_site").trigger('click');
+        }
+    });
+    $('.hd_nav').on('click', 'a', function (e) {
+        e.preventDefault();
+        window.location.href = this.href + '?next=' + window.location.href;
+    });
+</script>
+
+		
+		<div class="container">
+		
+<div class="site_header_con">
+	<div class="site_header clearfix">
+	
+		<div class="site_auth_score">
+			
+				<div class="ps_cm_score"><span></span></div>
+			
+		</div>
+		<div class="site_domain">
+			<div class="site_name">
+				<div class="clearfix">
+					<a class="t_site_name len_cut  -sv-no-popup"  href="http://www.dilidili.wang" target="_blank">嘀哩嘀哩</a><i></i>
+				</div>
+				<div class="clearfix">
+					<a href="http://www.dilidili.wang" target="_blank" class=" t_jump_link len_cut -sv-no-popup">www.dilidili.wang</a>
+				</div>
+			</div>
+			<div class="site_level_star clearfix">
+				
+				<span class="site_type">企业</span>
+				
+				
+				
+                
+                    
+                    
+                    
+                        <a href="https://v.anquan.org/cert/site/?site=www.dilidili.wang&at=business" target="_blank" class="-sv-no-popup">
+                            行业验证
+                        </a>
+                    
+                    
+                
+				
+			</div>
+		</div>
+		<div class="site_TC_cmm">
+			<a class="ks-btn-white comment_link" href="javascript:">我要点评</a>
+		</div>
+	</div>
+</div>
+
+
+<div class="PF_main_wrap clearfix">
+
+	<div class="sub_container clearfix">
+		<div class="site_detail PF_TB_wrap">
+			<div class="site_info_tabs">
+				<ul class="clearfix site_tab_nav">
+					<li class="tabs_flow_holder"></li>
+					<li name="wydp" class="t_active t_comments">网友点评</li>
+					<li name="wzmp" class="t_identity">网站名片</li>
+					<li name="wzaq" class="t_site_sec">网站安全</li>
+					<li name="xyjl" >信誉记录</li>
+				</ul>
+			</div>
+			<div class="site_tab_con">
+				<!--网友点评-->
+				
+<div class="row-fluid cons" id="comments_container">
+			
+			<div class="t_comments_header clearfix none">
+				<ul class="t_comments_tabs clearfix ">
+					<li class="tabs_flow_holder"></li>
+					<li c_num="0" c_type="all" class="comments_type t_active" >全部(<span>0</span>)</li>
+					<script>
+						
+						(function(){
+							var _tcomments = $(".t_comments_tabs");
+							var _width = _tcomments.find("li[c_type=all]").innerWidth()+4;
+							_tcomments.find(".tabs_flow_holder").width(_width);	
+						 })()
+					</script>
+					<li c_num="0" c_type="good" class="comments_type" >很好(<span>0</span>)</li>
+					<li c_num="0" c_type="common" class="comments_type">一般(<span>0</span>)</li>
+					<li c_num="0" c_type="bad" class="comments_type t_lst">很差(<span>0</span>)</li>
+				</ul>
+			</div>
+			<div class='comment_div'>
+				<div id="comments_list">
+					
+					<div class="no_time_line "><i></i>还没有人对它点评</div>
+					
+				</div>
+			
+				<div class="M_comment_submit">
+					<img u_token="None" src="//static.anquan.org/static/images/userpic50x50.jpg" onerror="this.src='//static.anquan.org/static/images/userpic50x50.jpg'" class=' comments_img'  title=""/>
+					<div class="hide" verdict_type=""></div>
+					
+					<div class="M_cm_options clearfix">
+						
+						<em id="bgood" c_type="good" class="u_choice">很好</em>
+						<em id="bcommon" c_type="common" class="u_choice">一般</em>
+						<em id="bbad" c_type="bad" class="u_choice e_lst">很差</em>
+						<b class="form_mt_star"></b><span>必选</span>
+						<span class="fr cm_txt_limit">需要输入8-200个字</span>
+					</div>
+					<div class="M_cm_form">
+						<form onsubmit="javascript:return false;" class='comment_form'><div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='ctQH3x4NoT10KGxHxYDJ4DhVRFWqFhRz' /></div>
+							<input type="hidden" name="url" value="www.dilidili.wang"/>
+							<div class="wpr"><textarea autoresize="autoresize" id="comment_submit_form" class="input-xlarge comment_input holder" placeholder="我来说两句"  maxlength=200 name="comment" rows="2"></textarea></div>
+							<div class="M_cm_form_sb clearfix">
+								<span class="cm_TB_weibo">
+									<a id="comment_btn" class="comment_button ks-btn-blue">提交点评</a>		
+									<span id="captcha_div" class="captcha-row hide">
+										<input type="text" id="captcha" name="captcha" maxlength="4" autocomplete="off" style="ime-mode:disabled" />
+										<img src="/captcha/?width=60&height=28" alt="验证码" class="captcha" onclick="refresh_captcha(this)"/>
+										<a id="wtf_code" href="javascript:void(0);" class="M_cm_change_code" onclick="refresh_captcha(this);">换一张</a>
+									</span>
+									<input id="share_to_sina" type="checkbox" checked=checked />
+									<label for="share_to_sina" class="inline">同步到新浪微博</label>
+								</span>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+				<!--身份核实-->
+				
+
+<!--身份核实-->
+<div class="identity_check cons none">
+    <div class="icp_get_auth"><a href="/authenticate/">如何获得权威认证？ </a></div>
+    
+    <div class="gj_auth_level gj_auth_level3">
+        <a href="https://v.anquan.org/cert/site/?site=www.dilidili.wang&at=business" target="_blank" class="-sv-no-popup">
+            <div class="gj_auth_logo"></div>
+            <div class="gj_auth_star"></div>
+            
+            <div class="gj_auth_cert business"></div>
+        </a>
+    </div>
+    
+    
+    
+        <div class="tab_main tab_main_id" id="icp_div" >
+            
+            
+            <div class="profile_ICP">
+                <div class="ICP_info ICP_site_MP">
+                    <ul class="ICP_info_item">
+                        
+                            <li>
+                                <span class="ICP_info_lb">主办方</span>
+                                <p class="ICP_info_tcon">
+                                    福州市嘀哩科技有限公司
+                                </p>
+                            </li>
+                        
+                        
+                        
+                        
+                            <li>
+                                <span class="ICP_info_lb">联系电话</span>
+                                
+                                <p class="ICP_info_tcon">0591-83627819</p>
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            
+            
+            <div class="profile_ICP">
+                <div class="ICP_handle">
+                    <i class="tificate01"></i>工商注册信息<span class="handle_slide"><b class="t_arrow"></b></span>
+                </div>
+                <div class="ICP_info">
+                    <ul class="ICP_info_item">
+                        
+                        <li>
+                            <span class="ICP_info_lb">公司名称</span>
+                            <p class="ICP_info_tcon">
+                                    福州市嘀哩科技有限公司
+                            </p>
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <span class="ICP_info_lb">企业类型</span>
+                            <p class="ICP_info_tcon">有限责任公司</p>
+                        </li>
+                        
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            
+                
+                <div class="profile_ICP">
+                    <div class="ICP_handle">
+                        <i class="tificate03"></i>ICP备案信息<span class="handle_slide"><b class="t_arrow"></b></span>
+                    </div>
+                    <div class="ICP_info">
+                        <ul class="ICP_info_item">
+                            
+                            <li>
+                                <span class="ICP_info_lb">网站名称</span>
+                                <p class="ICP_info_tcon">嘀哩嘀哩</p>
+                            </li>
+                            
+                            
+                            <li>
+                                <span class="ICP_info_lb">备案类型</span>
+                                <p class="ICP_info_tcon">
+                                     企业
+                                </p>
+                            </li>
+                            
+                            
+                            <li>
+                                <span class="ICP_info_lb">备案号</span>
+                                <p class="ICP_info_tcon">闽ICP备16023815号-2</p>
+                            </li>
+                            
+                            
+                            <li>
+                                <span class="ICP_info_lb">审核时间</span>
+                                <p class="ICP_info_tcon">2017-05-10</p>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        
+    
+</div>
+
+				<!--资质，经营许可-->
+				
+				<!--虚假欺诈-->
+				
+
+
+<div class="cons none risk_container">
+    
+    <div>
+        <div class="risk_cons">
+            <div class="risk_title">安全状态</div>
+            <i class="risk_icon risk_safe"></i>
+            <span class="bold color_safe">
+                安全
+                </span>
+            
+            <div class="con_desc">此网站已通过安全联盟安全检测，请放心访问。安全状况如下：</div>
+            
+        </div>
+    </div>
+    
+
+    
+    <div class="con_row">
+        <div class="evil_con"><span class="con_title">检测项目</span></div>
+        <div class="unknown_evil_con">
+            
+                
+
+<div class="risk_row t-safe">
+    <div class="risk_type">
+        钓鱼
+        <i class="icon_16x16"></i>
+    </div>
+
+    
+    <div class="risk_desc">
+        钓鱼是指页面仿冒某知名网站，让用户以为是正规网站，给用户造成损失。
+    </div>
+    
+</div>
+
+            
+                
+
+<div class="risk_row t-safe">
+    <div class="risk_type">
+        欺诈
+        <i class="icon_16x16"></i>
+    </div>
+
+    
+    <div class="risk_desc">
+        是指利用互联网使用欺骗手段骗取用户隐私、信息、钱财，通过欺诈网页内容非法牟利，严重侵犯网民的合法权益。
+    </div>
+    
+</div>
+
+            
+                
+
+<div class="risk_row t-safe">
+    <div class="risk_type">
+        假冒/仿冒
+        <i class="icon_16x16"></i>
+    </div>
+
+    
+    <div class="risk_desc">
+        是指通过互联网对知名品牌、商标所有者的知识产权、商标、商品、服务等进行仿制和假冒的不法行为。
+    </div>
+    
+</div>
+
+            
+                
+
+<div class="risk_row t-safe">
+    <div class="risk_type">
+        色情
+        <i class="icon_16x16"></i>
+    </div>
+
+    
+    <div class="risk_desc">
+        是指通过互联网传播包含描绘性行为或者露骨宣扬色情的诲淫性的书刊、影片、录像带、录音带、图片及其他淫秽物品。
+    </div>
+    
+</div>
+
+            
+                
+
+<div class="risk_row t-safe">
+    <div class="risk_type">
+        博彩
+        <i class="icon_16x16"></i>
+    </div>
+
+    
+    <div class="risk_desc">
+        是指利用互联网进行的赌博经营行为，在国家法律法规所不允许的情况下进行非法网络博彩和赌博交易行为。
+    </div>
+    
+</div>
+
+            
+                
+
+<div class="risk_row t-safe">
+    <div class="risk_type">
+        木马病毒
+        <i class="icon_16x16"></i>
+    </div>
+
+    
+    <div class="risk_desc">
+        指网站被黑客通过入侵手段拿到修改页面的权限，在网页的源代码中插入网页木马（恶意代码），用户在访问网页时就会运行网页木马受到漏洞攻击，从而自动下载并执行病毒木马程序。
+    </div>
+    
+</div>
+
+            
+                
+
+<div class="risk_row t-safe">
+    <div class="risk_type">
+        违反法规
+        <i class="icon_16x16"></i>
+    </div>
+
+    
+    <div class="risk_desc">
+        内容存在违法信息，或者处于违法的灰色地带。
+    </div>
+    
+</div>
+
+            
+                
+
+<div class="risk_row t-safe">
+    <div class="risk_type">
+        经营资质
+        <i class="icon_16x16"></i>
+    </div>
+
+    
+    <div class="risk_desc">
+        是指网站在未获得相关行业法定要求的经营、销售、服务等许可资质的情况下，存在无资质经营或在线交易的行为。
+    </div>
+    
+</div>
+
+            
+                
+
+<div class="risk_row t-safe">
+    <div class="risk_type">
+        黑客入侵
+        <i class="icon_16x16"></i>
+    </div>
+
+    
+    <div class="risk_desc">
+        是指网站可能存在安全漏洞的情况下，有被黑客利用漏洞入侵到网站服务器的风险，以及因此造成的网站数据泄露或恶意篡改。
+    </div>
+    
+</div>
+
+            
+                
+
+<div class="risk_row t-safe">
+    <div class="risk_type">
+        恶意广告
+        <i class="icon_16x16"></i>
+    </div>
+
+    
+    <div class="risk_desc">
+        暗链是其中的一种，通常是黑客利用网站安全漏洞入侵网站后留下的一些在网页页面上不可见的超链接，这些超链接用于欺骗搜索引擎提高所链向的网站排名，一般情况下暗链主要嵌入在网站首页。
+    </div>
+    
+</div>
+
+            
+        </div>
+    </div>
+    
+    
+
+    
+    
+    
+</div>
+<div style="disaplay:none">
+    <div class="QT_modal none" id="Modal_sv_list"  style="width:618px;">
+        <div class="sv-hd">国内知名专业的网站安全技术服务商(有偿服务)</div>
+        <div class="sv-con">
+            <ul class="clearfix">
+                
+                <li class="sv2">
+                    <div class="tit">专业被黑/漏洞修复</div>
+                    <div class="sv-logo sv-jsl"><a href="//www.yunaq.com/cyd/" target="_blank" title="创宇盾"></a></div>
+                </li>
+                <li class="sv3">
+                    <div class="tit">企业级安全解决方案</div>
+                    <div class="sv-logo-con">
+                        <span class="sv-logo sv-hengan"><a href="//www.yunaq.com/security_service/" target="_blank" title="安全体检"></a></span><span class="sv-logo sv-trx"></span><span class="sv-logo sv-lvm"><a href="http://www.knownsec.com/" target="_blank" title="知道创宇"></a></span><span class="sv-logo sv-qmxc"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+				<!--网站漏洞-->
+				<!--时间线-->
+				
+
+<!--时间线-->
+<div class="time_line cons  none">
+	
+	<!--没有历史记录-->
+	<div class="no_time_line">
+		<i></i>暂无信誉记录
+	</div>
+	
+</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="sidebar">
+		<div class="site_master_part">
+			<form type="POST" id="site_owner_note_form"><div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='ctQH3x4NoT10KGxHxYDJ4DhVRFWqFhRz' /></div>
+				<input type="hidden" name="owner_id" value="" />
+				<input type="hidden" name="domain" value="www.dilidili.wang" />
+			<div class="master_info">
+				<img src="/static/images/userpic50x50.jpg" onerror="this.onerror='';this.src='/static/images/userpic50x50.jpg'" alt="站长"/>
+				<b></b>
+				<em>站长</em>
+				
+			</div>
+			
+				
+					<div class="fs12">站长太忙了，啥消息都没发布！
+						
+							<a class="underline J_publish_report" href="javascript:modal_login()">点击立即发布</a>
+						
+					</div>
+				
+			
+				<textarea maxlength="140" data-value =""	autoresize="autoresize" name="site_owner_note" id="J_save_txtarea"></textarea>
+				<span class="mst_report_time"></span>
+			</form>
+			</div>
+
+			<div class="PF_jb_area">
+				<a class="ks-btn-white J_jb_toggle -sv-no-popup" target="_blank" href="//jubao.anquan.org/">举报仿冒网站<i class="beta"></i></a>
+			</div>
+
+			<div class="aside_profile_activity">
+				<div class="profile_ac_con clearfix">
+					<div class="ac_con_item">
+						<ul id="verdict_task_ul">
+						</ul>
+					</div>
+				</div>
+				<div class="gj_download">
+					<i></i>电脑管家，为你实时拦截仿冒及其它恶意网站。<a class="underline -sv-no-popup" href="http://dlied6.qq.com/invc/xfspeed/qqpcmgr/download/QQPCDownload140077.exe">立即下载</a>
+				</div>
+			</div>
+	</div>
+
+</div>
+<link type="text/css" rel="stylesheet" href="//static.anquan.org/static/site_verify/css/site_verify.css?v=1504487166.39" />
+<div class="modal none" style="display:none;">
+	<div class="choose_vali_modal">
+		<div class="choose_vali_title">
+			我们需要确认您是该网站的管理员后，您才可以对网站进行诊断、查看诊断报告、及享有更多的服务。
+		</div>
+		<div class="vali_list">
+			<div class="vali_code m_vali" style="right: 300px;">
+				  <i></i>
+				  <a href="javascript:void(0)" class="ks-btn-blue" id="file_validate" >文件验证</a>
+			</div>
+			<div class="vali_code m_vali" style="right: 120px;">
+				<i style="background-position: 0 -126px;"></i>
+				<a href="javascript:void(0)" class="ks-btn-blue" id="code_validate" >代码验证</a>
+			</div>
+			
+			<!--<div class="vali_phone m_vali">
+				  <i></i>
+				  <a href="javascript:void(0)" class="ks-btn-blue" id="phone_validate">电话验证</a>
+			</div> -->
+		</div>
+		
+	</div>
+
+	<div class="vali_email_modal">
+		<div class="vali_email_title">
+			邮件已经发送到您的域名注册邮箱：<font id='verify_email'>bbc@as.com</font>，请您稍后登录邮箱点击验证链接进行验证。
+		</div>
+		<div class="email_view">
+			<a href="#" target="_blank" class="ks-btn-green -sv-no-popup" id="check_mail_server">
+				立即查看邮箱
+			</a>
+		</div>
+		<div class="vali_email_tip">
+			如果长时间未收到邮件，请您检查您的垃圾邮件或者<a href="javascript:void(0)" class='re_send_mail'>重新发送邮件</a>。
+		</div>
+		<div class="modal_opr clearfix">
+			  <a href="javascript:void(0)" class="ks-btn-blue fr vali-succ">已完成验证，关闭窗口</a>
+			   <a href="javascript:void(0)" class="ks-btn fr back_choose_way">返回</a>
+		</div>
+	</div>
+
+	<div class="vali_phone_modal">
+		<div class="vali_phone_title">
+			请使用域名注册电话&nbsp;<font>159****9091</font>&nbsp;致电&nbsp;<span class="contact_me">028-12345678</span>，
+			我们的工作人员将帮助您完成管理员身份验证。
+		</div>
+		<div class="modal_opr clearfix">
+			  <a href="javascript:void(0)" class="ks-btn-blue fr vali-succ">我已完成电话验证</a>
+			   <a href="javascript:void(0)" class="ks-btn fr back_choose_way">返回</a>
+		</div>
+	</div>
+
+	<div class="vali_file_modal">
+		<div class="vali_file_step step1">
+			<i></i>请下载HTML验证文件<span>scanv.html</span>
+		</div>
+		<div class="vali_file_download">
+			<a href="#" class="ks-btn-green" id="download_verify_file_btn"  type="application/force-download">点击下载文件</a>
+		</div>
+		<div class="vali_file_step step2">
+			<i></i>将该文件上传到您网站的根目录：<span id="verify_domain_str"> http://www.12345.cn/</span>，然后访问
+			<a href="#" id='verify_file_url' class="-sv-no-popup" target='verify_file_url'> http://www.12345.cn/scanv.html</a>，确认文件已上传成功。
+		</div>
+		<div class="modal_opr clearfix">
+			  <a href="javascript:void(0)" class="ks-btn-blue fr" id="verify_btn">已完成上传，点击验证</a>
+			   <a href="javascript:void(0)" class="ks-btn fr back_choose_way">返回</a>
+		</div>
+	</div>
+	<div class="vali_code_modal">
+		<div class="vali_file_step step1">
+			<i></i>在您的<span style="color: #dd4b39">网站首页</span>任何地方插入如下代码：
+		</div>
+		<div class="vali_code_copy" >
+			<textarea></textarea>
+		</div>
+		<div class="vali_file_step step2">
+			<i></i>如果操作成功，您将在您的网页看到“安全联盟”，然后请点击验证按钮进行验证。
+		</div>
+		<div class="modal_opr clearfix">
+			  <a href="javascript:void(0)" class="ks-btn-blue fr" id="verify_btn">验证</a>
+			   <a href="javascript:void(0)" class="ks-btn fr back_choose_way">返回</a>
+		</div>
+	</div>
+</div>
+
+<script src="//static.anquan.org/static/site_verify/js/site_verify.js?v=1504487166.39"></script>
+
+<script src="//static.anquan.org/static/common/js/ks_dialog_v1.0.js?v=1504487166.39"></script>
+
+
+		
+        </div>
+        
+        <div id="foot">
+	<div class="foot_inner clearfix">
+		<div class="Footer_left_link">
+			<span>Copyright ©2013 anquan.org</span><span>京ICP备10040895号-5</span><a href="/about/protocol/">服务条款</a><font>|</font><a class="footer_left_link" href="/about/privacy_protection/">隐私保护</a>
+		</div>
+		 <div class="Footer_right_link">
+			 <a href="//about.anquan.org/">关于我们</a><font>|</font><a href="//tort.anquan.org">侵权举报</a><font>|</font><a href="/share/">开放数据</a><font>|</font><a href="/present_center/">礼品专区</a><font>|</font><a href="/recruit/recruit_index/">万人鉴定团</a><font>|</font><a href="/help">帮助</a><font>|</font><a href="/static_search/1/sites_1" target="_blank">收录域名</a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+var _svq_ = _svq_ || [];_svq_.push(['set_api_key', '16adflfafads9gf28327005056b68c3d']);_svq_.push(['set_noicon_class', '']);_svq_.push(['set_nopopup_class', '-sv-no-popup']);_svq_.push(['check_page']);
+(function() {var aq = document.createElement('script'); aq.type = 'text/javascript'; aq.async = true;aq.src = 'http://openapi.anquan.org/static/aq.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(aq, s);})();
+</script>
+<script type="text/javascript">
+	function modal_login(){
+		$("#rz_flag").attr('value','0');
+		$("#sheet").find("#login_email").val('').end().find("#login_password").val('').end().modal('hide').modal('show');
+		$("#sheet").find(".holder").ksHolder();
+	}
+	$(document).ready(function(){
+		var sites = new Array();
+		var $s_form = $("#global-nav-search");
+		$.getJSON('/seccenter/random_sites/',function(data){
+			 _.each(data, function(s){ sites.push(s['_id']);});
+			$("#domainText").typeahead({
+				source: sites,
+				onselect: function(obj){
+				$s_form.submit();
+				}
+			});
+			
+			$("#home_search").typeahead({
+				source: sites,
+				onselect: function(obj){
+				$("#home-search-form").submit();
+			}
+			//matcher: function(item){return true;},
+			//highlighter: function(item) {
+			//	return item;
+			//}
+			});
+			total = sites.length;
+			var my_num= parseInt((1+Math.random()*(total)));
+			var my_string = data[my_num]['_id'];
+			while(my_string.length > 20){
+				my_num= parseInt((1+Math.random()*(total)));
+				my_string = data[my_num]['_id'];
+			}
+			$('#home_search').note_input(data[my_num]['_id']+' - 网站信誉一查便知');
+		})
+		$(".input input").focus(function(){
+			$(this).siblings('label').css('display','none');
+		}).blur(function(){
+			if($(this).val() != ''){
+				$(this).siblings('label').css('display','none');
+			}
+			else {
+				$(this).siblings('label').css('display','block');
+			}
+		});
+		$(".input input").bind('blur',function(){
+			$(this).siblings('.msgr').remove();
+		});
+		$(".input").bind('click',function(){
+			$(this).children('input').focus();
+		});
+		$("#login_btn").click(modal_login);
+	//enter login
+		$("#auth_form input").keydown(function(event){
+			if(event.keyCode ==  13 && $("#sheet").is(":hidden") == false){
+			$("#login_submit").click();
+			}
+		})
+	});
+	function hideSheet() {
+		$("#login_btn").click();	
+	}	
+	function submitLogin() {
+		var email = $("#login_email").val();
+		var password = $("#login_password").val();
+		var captcha = $("#captcha").val();
+		var csrf = $("input[name='csrfmiddlewaretoken']").val();
+		var rz_flag = $("#rz_flag").val();
+		var domain = $("#domain").val();
+		var success = false;
+		var next_url = '//www.anquan.org';
+		var url = $("#auth_form").attr("action");
+		var my_next_url = $("#my_next_url").val();
+		$.ajax({
+			url: url,
+			type:'POST',
+			dataType: 'json',
+			async:false,
+			data: {
+					'email':email,
+					'password':password,
+					'captcha':captcha,
+					'csrfmiddlewaretoken': csrf,
+					'rz_flag':rz_flag,
+					'domain':domain,
+					'next_url':my_next_url
+			},
+			success: function(result) {
+				if(result.status == 'error') {
+					if(result.msg)
+						mtip(result.msg,"error");
+					else
+						mtip("未知错误，请重新提交试试","error");
+
+					if(result.captcha_invalid){
+						$("#captcha_div").show().find("a").trigger('click');
+					}
+				}
+				else {
+					success = true;
+					next_url = result.next_url;
+					window.location.href = next_url;
+				}
+			}
+		}); 
+		if(success) {
+			window.location.href = next_url;
+		}
+	}
+
+	function submitSearch(obj){
+		var search_str = $.trim($(obj).find("input[name=domain]").val());
+		var url = search_str.split(' ')[0],
+		domain=url.replace(/http:\/\/|https:\/\//i,'').split('/')[0];
+		var re=/[A-Za-z0-9]+\.[A-Za-z]+$/;
+		if(domain.indexOf(':') !=-1) re=/[A-Za-z0-9]+\.[A-Za-z]+\:(\d+)$/;
+		var rip=/(\d+)\.(\d+)\.(\d+).(\d+)/g;
+		if(re.test(domain) || rip.test(domain)) {
+			window.location.href = "/explore/search_domain/" + encodeURIComponent(url) + "/";
+		}else if (search_str && search_str !== '网站信誉一查便知'){
+			//search_str = search_str.split(' ')[0]; 
+			search_str = search_str.slice(0, 100);  
+			window.location.href = "/explore/search/" + search_str + "/";
+		}else{
+			mtip('请输入合法域名或想查询的关键词。', 'error');
+		}
+		return false;
+	}
+	function to_login(next_url){
+		if(next_url){
+			$("#qq_login_btn").attr('href','/login/?type=qq&act=auth&next_url=' + next_url);
+			$("#weibo_login_btn").attr('href','/login/?type=weibo&act=auth&next_url=' + next_url);
+			$("#baidu_login_btn").attr('href','/login/?type=baidu&act=auth&next_url=' + next_url);
+			$("#auth_form").attr('action','/login/?type=email&next_url=' + next_url);
+		}
+		$("#sheet").find("#login_email").val('').end().find("#login_password").val('').end().modal('hide').modal('show');
+	}	
+</script>
+
+        
+		<span id="tip_container" class="tip_container">
+	<span id="tip" class="mtip">
+		<i class="micon"><img class="m_tip_loading" src="//static.anquan.org/static/common/images/loading32x32_80.gif"/></i>
+		<span></span>
+		<i class="mclose"></i>
+	</span>
+</span>
+<script type="text/javascript">
+var ss_mtip=".tip_container {display:none;z-index: 11000;position: fixed;_position:absolute;top:40%;left:50%;margin-left: -288px;text-align: left;color:#333;}";
+GLOBAL.require.css(ss_mtip);
+function mtip(tip_msg, stat, timeout){
+		if(!tip_msg) return;
+		$tip_container = $("#tip_container");
+		var bWating = $tip_container.find(".mtip.waiting")[0];
+		if(!bWating){
+		$(".tip_container").css({
+				"display":"none",
+				"top":"40%",
+				"opacity":"1"
+			})
+		}
+		clearTimeout(window.mTipTimer);
+		if(!timeout){
+			timeout = 2000;
+			if(window.G_MOBILE_FLAG){
+				timeout = 800;
+			}
+		}
+		$tip_container.find(".mtip").removeClass("success").removeClass("error").removeClass("warning").removeClass("waiting").addClass(stat);
+        $tip_container.find("#tip>span").html(tip_msg);
+		if(!bWating){
+			//计算当前MTIP位置
+			var distance = 20,bIE6 = (typeof document.body.style.maxWidth ==="undefined");
+			//执行动画 淫荡的IE6.
+			if(bIE6){
+				//IE6 初始化对话框
+				var IE6Y = (document.documentElement.scrollTop||document.body.scrollTop)+300;
+				$tip_container.css("top",IE6Y+"px");
+			}
+			$tip_container.show();
+			var nTop = $tip_container.offset().top-(document.documentElement.scrollTop||document.body.scrollTop);
+			$tip_container.css("top",parseInt(nTop)+"px");
+			bIE6 && (nTop = IE6Y);
+			var mWidth = $tip_container.outerWidth();
+			//IE6 Mxwidth检测
+			if(bIE6 && $tip_container.find(".mtip").outerWidth() > 250 ){
+					$tip_container.find(".mtip").width(250);
+			}
+			$tip_container.css("marginLeft","-"+parseInt(mWidth)/2+"px");
+			$tip_container.stop(true).animate({top:parseInt(nTop - distance)+"px"},{
+				duration: 160,
+				easing:"easeInQuad"
+			})
+		}
+		var fnReset = function(){
+			$tip_container.css({
+				top:"40%",
+				opacity:"1",
+				display:"none"
+			}).find(".mtip").removeClass("success").removeClass("error").removeClass("warning").removeClass("waiting");
+		}
+		var fnHideTip = function(){
+			var nTop = $tip_container.offset().top-(document.documentElement.scrollTop||document.body.scrollTop);
+			bIE6 && (nTop = IE6Y - distance);
+			$tip_container.stop(true).animate({
+				top:parseInt(nTop-40)+"px",
+				opacity:"0"
+				},{duration:300,easing:"easeInQuad",complete:function(){
+					fnReset();	
+				}
+			})
+		}
+		//假设人能忍受的等待时间是15秒.
+		if(stat =="waiting"){
+			timeout = 15000;
+		}
+		window.mTipTimer = setTimeout(function(){
+				fnHideTip();
+		}, timeout);
+		$tip_container.unbind("click").on("click",'.mclose',function(){
+			fnHideTip();		
+		})
+		$tip_container.unbind('mouseover').mouseover(function(){
+			clearTimeout(window.mTipTimer);	
+		});
+		$tip_container.unbind("mouseout").mouseout(function(){
+			if(bWating) return false;
+			window.mTipTimer = setTimeout(function(){
+				fnHideTip();	
+			}, timeout);
+		});
+}
+function mtip_remove(){
+	$("#tip_container").css({
+		top:"40%",
+		opacity:"1",
+		display:"none"
+	}).find(".mtip").removeClass("success").removeClass("error").removeClass("warning").removeClass("waiting");	
+}
+</script>
+
+		<script>
+			var STATIC_CONF ={
+				"VERSION":"1504487166.39",
+				"URL":"//static.anquan.org/static/"
+			};
+		</script>
+		<script src="//static.anquan.org/static/common/js/tools.v1.0.js?v=1504487166.39?1" type="text/javascript"></script>
+		<script src="//static.anquan.org/static/common/js/common.js?v=1504487166.39" type="text/javascript"></script>
+		
+<script  src="//static.anquan.org/static/profile/js/page_profile.js?v=1504487166.39" /></script>
+
+	</body>
+	<script>
+		//不使用ajax缓存
+	$(document).ready(function(){
+		//IE低版本提示
+		ie_tip();
+		//note_input输入框提示
+		$(".note_input").note_input();
+		$(".bcover_tooltip").mTooltip({
+			trigger: "hover",
+			bCover: true
+		});
+		$(".my_tooltip").mTooltip({
+			trigger: "hover"
+		});
+		//登录首页增加贡献值
+		
+		}).off("mouseover.len_cut").on('mouseover.len_cut','.len_cut:visible', function(){
+			$(this).len_cut_tip();
+		}).off("mouseover.mtooltip").on("mouseover.mtooltip",".tips:visible",function(){
+			var _this = $(this);
+			var con  = _this.attr("tip-content");
+			if(con){
+				_this.mTooltip({
+					content:con
+				})
+			}
+		}).on('click', '.u_trace', function(){
+			var oid, me=$(this);
+			oid = me.attr('u_token') || me.parent().attr('u_token') || me.parents('li').attr('u_token') ;
+			if (!oid) return
+			window.open('/user/user_trace/' + oid + '/');
+		});
+	</script>
+		
+<script type="text/tpl" id="rows-tpl">
+<% function get_verdict_status(code){%>
+	<% if(code == 1) return "已鉴定"; %>
+<%}%>
+<% _.each(data, function(s, index){ %>
+	<li class="clearfix" domain="<%- s.domain %>">
+	<span class="per_count"><b><%=s.comment_times%></b>人点评</span>
+	<i><%=index+1%></i><a href="/s/<%-s.domain%>" domain="<%-s.domain%>" target="_self" title="<%-s.name%>"  class="<%if(s.verdict_flag){ %>t_mini<%}%>"><%-s.name%></a>
+	
+	</li>
+<% }); %>
+</script>
+<script type="text/tpl" id="counterfeit-rows-tpl">
+<% var flag = !!0; %>
+<% _.each(data, function(cf, index){ %>
+	<% if(index > 9){ flag =!!1;} %>
+	<li class="clearfix <% if(index > 9){ %> none <%}%>" domain="<%- cf.content.value %>" ><a href="<%- cf.content.value %>" class="dm_span" target="_blank"><%- cf.content.value%></a>
+		<div>
+		   <%_.each(cf.shot, function(s, idx){ %>
+			<a class="fc_img_con <% if (idx >0){ %>hide<% }%> " data-fancybox-group="fancy_group_<%-index%>" href="//static.anquan.org/static/user_upload/<%-s%>">截图</a>
+			<% }); %>
+		</div>
+	</li>
+<% }); %>
+<%if (flag){ %><li clsss="m_li"><a href="javascript:;" onclick="$('#verdict_task_ul .none').show();$(this).hide();" class="J_s_more underline">查看更多</a></li><% } %>
+</script>
+<script src="//static.anquan.org/static/js/center.js" type="text/javascript"></script>
+<script type="text/javascript">
+var domain = "www.dilidili.wang";
+var site_title = "";
+var G = {
+	title: "嘀哩嘀哩"
+}
+function confirm_del_comment(id,type){
+		ksConfirm({
+		con:"删除操作不可恢复，确认删除吗？",
+		width:250,
+		height:70,
+		fnOK:function(){
+			$.ajax({
+			type:'get',
+			data:{'id':id, 'type':type},
+			url: '/seccenter/del_comment/',
+			success:function(ret){
+				if(ret['status'] == 'success'){
+					mtip(ret['msg'],'success');
+					if(type ==1)
+						$("#" + id).detach();
+					else if(type == 2)
+						$("#" + id).closest('.comment_reply').detach();
+				}else{
+					mtip(ret['msg'],'error');
+					return false;
+					}
+				}
+			});
+		 }
+	})
+}
+function delete_comment(id,type){
+	confirm_del_comment(id,type);
+}
+function show_detail(){
+	$(".report-detail").slideToggle();
+}
+
+function show_all_business(obj){
+	$(obj).closest('#dis_txt').next('#hide_txt').removeClass('hide').end().detach();
+}
+
+function show_jump_modal(){
+	$('#jump_modal').modal('show');
+}
+
+
+var reply_input;
+window.timer1 = 0;
+window.timer2 = 0;
+$(document).ready(function(){
+	//根据请求url跳进不同tab页
+	
+		change_visit_tab("wzmp");
+	
+	//仿冒数据
+	//var rows_tpl = _.template($('#rows-tpl').html());
+	
+	var rows_tpl = _.template($('#counterfeit-rows-tpl').html());
+	var container = $("#verdict_task_ul");
+	var render_sites = function(sites) {
+		return container['html'](rows_tpl(data=sites));
+	}
+	  $.getJSON("/seccenter/counterfeit_list/?domain=www.dilidili.wang",{}, function(res){
+			if(res[0]){
+				$("ul.profile_ac_tabnav").show();
+				render_sites(res);
+			}
+	});
+	
+
+	/*====================================
+	 * auto change to '网站安全' page
+	   add by wenshin in beijing
+	  ====================================*/
+	var is_lanjie = /#lanjie/i.test(window.location.href);
+	if ( is_lanjie ) {
+		Flow_tab($(".t_site_sec"),true);
+	}
+	/**
+	  $.getJSON("/seccenter/verdict_task/?ar=55342150",{}, function(res){
+		render_sites(res.tasks);
+	});
+	*/
+	$('.profile_keywords').each(function(){
+		$(this).mTooltip({
+			content: $(this).closest('div').next('.black_links'),
+			trigger: "hover",
+			position: 'top',
+			XSS_safe: true,
+			verticalOffset: -5
+		});
+	});
+
+	$("ul.nav").find("li").removeClass("current");
+
+	$('#declar-toggle').click(function(){
+		$('#declaration').slideToggle();
+	});
+	$('#continue_jump').click(function(){
+		$('#jump_modal').modal('hide');
+	});
+	$(".show_all_detail").click(function(){
+	   $(this).closest('.con_row').find('.safe_evil_con').slideToggle();
+	   $(this).toggleClass('is_show');
+	});
+	$('.deface_link').click(function(){
+		$('#black-link-title').removeClass('hidden');
+		$('#black-words-title').addClass('hidden');
+	});
+	$('.deface_word').click(function(){
+		$('#black-link-title').addClass('hidden');
+		$('#black-words-title').removeClass('hidden');
+	});
+	$('.verify_later').live('click',jump_to_site_manager);
+	$("#sns-share-btn").mTooltip({
+		content:$('#share-details-content'),
+		anchor: "#sns-share-btn",
+		trigger: "hover",
+		horizontalOffset:2,
+		XSS_safe: true
+	});
+	$('[id^=wanna]').click(function(){
+			$('.u_choice').removeClass('u_checked');
+			if ( $(this).attr('id') == 'wanna_blame')
+				$('.u_choice[c_type=bad]').click();
+			$('#comment_submit_form')[0].focus();
+			});
+	$('.u_choice').click(function(){
+			$('.u_choice').removeClass('u_checked');
+			$(this).addClass('u_checked');
+			});
+
+	$.each(["#phishing-tip", "#malware-tip", "#black-link-title", "#vul-tip", "#maliciouslinks-tip", "#without-qualification-tip", "#fraud-tip", "#counterfeiting-tip", "#porn-tip", "#gaming-tip", "#violation-tip", "#hacked-tip", ], function(index, tip){
+		$("[target='" + tip + "']").mTooltip({
+			trigger: "hover",
+			content: $(tip)
+		});
+	});
+
+	$("#snapshot-div").on('mouseover',function(){
+		$(this).children(".zhezhao").show();
+	}).on('mouseout', function(){
+		$(this).children(".zhezhao").hide();
+	}).on('click',function(){
+		
+			window.open('/seccenter/link_out/www.dilidili.wang');
+		
+	});
+
+	$(".liji-renling").live('click', function(){
+		//未登录时登录并add_session_jump
+		
+		login_jump("/seccenter/add_session_jump/?rl_url=/s/www.dilidili.wang");
+		
+	});
+
+	function renling_callback(){
+		window.location.reload();
+	}
+
+	$("a#sure_link").attr('href',"/seccenter/link_out/www.dilidili.wang");
+	$("#search_result.safe a").click(function(){ return add_click_count();});
+	var d = new Date();
+	var site_score = "40";
+	if (site_score == '?'){
+		site_score = 'unknown';
+	}
+	$.getJSON("/seccenter/get_reputation/?domain=www.dilidili.wang&origin_domain=www.dilidili.wang&time=" + d.getTime() + "&score=" + site_score,function(data){
+		if(data){
+			data_dict = {'views':'#repu_view_count',
+			'clicks':'#repu_visit_count',
+			'favorites':'#repu_fav_count',
+			'opposes':'#repu_opposes_count',
+			'accusation':'#accu_times_wrap',
+			'supports':'#repu_supports_count'}
+			for (key in data_dict){
+				if (data[key] > 99999){
+					$(data_dict[key]).text(parseInt(data[key]/10000) + '万');
+					$(data_dict[key]).attr('title',data[key]);
+				}
+				else if(data[key] > 0){
+					$(data_dict[key]).text(data[key]);
+				}
+				else{
+					$(data_dict[key]).text(0);
+				}
+
+			}
+		}
+	});
+	if($(".t_comments .badge_num")[0]){
+		get_page("/seccenter/comment_page/?url=www.dilidili.wang&page=1&attitude=all");
+	}
+	$(".comments, .comment_reply").live('hover',function(event){
+		if(event.type == 'mouseenter'){
+			$(this).find(".icon_div").addClass('hover');
+			return false;
+		}else{
+			$(this).find(".icon_div").removeClass('hover');
+			return false;
+		}
+	});
+	$('.renzheng-btn').tooltip();
+	$('.favorite-toggler').live('click', function(){
+		//回调函数，更新favorite数量
+		function fav_callback(my_item){
+			return function(data){
+			json = eval(data);
+			var count=json.count;
+			var msg=json.msg;
+			if (msg == ''){
+			my_item.empty();
+			my_item.text(count);
+			mtip("操作成功！","success");
+			}
+			else{
+				mtip(msg, 'warning');
+			}
+		}}
+		var comment_id = $(this).parents('div.comments').attr('id');
+		var d = new Date()
+		var target_url = "/seccenter/comment/favorite/?comment_id="
+		+ comment_id
+		+ '&time='
+		+ d.getTime();
+		var my_item = $(this).siblings('.fav_count');
+		$.getJSON(target_url, fav_callback(my_item));
+	});
+	$('.pager_btn').live('click', function(){
+		if($(this).hasClass('disabled') || $(this).hasClass('current'))return false;
+		url = $(this).attr('id');
+		$('.my_pager a').addClass('hide');
+		$('.my_pager').append("<img alt='Loading...' class='load-image' src='//static.anquan.org/static/images/loading.gif'>");
+		var type = $("#comments_container .comments_type.t_active").attr('c_type');
+		get_page(url, type);
+	});
+	//length limit 5.14 xyj
+	var G__f = true,G__len=0;
+	$(".comment_form textarea[name='comment']").on("keydown",function(){
+			if(window.event){
+				if(Tools.getStrLen($(this).val())>400){
+					if(G__f){
+						 G__len  = $(this).val().length;
+						 G__f = false;
+					}
+					$(this).val($(this).val().substring(0,G__len));
+				}
+			}
+	})
+
+	$(".comments_type").click(function(){
+		var $me = $(this), type = $me.attr('c_type'), num = parseInt($me.attr('c_num')),
+			url = "/seccenter/comment_page/?url=www.dilidili.wang&page=1&attitude=" + type;
+			Flow_tab($me);
+		if (num == 0){
+			$('#comments_list').html('<div class="no_time_line no_comment_tip"><i></i>还没有人对它点评</div>');
+		}else{
+			//调用page_profile外部方法切换tab
+			var cm_list = $("#comments_list"),
+				cm_data = cm_list.data(type),
+				cm_num = parseInt(cm_list.data(type+"_num"));
+			if(cm_data && cm_num === num){
+				cm_list.empty().html(cm_data);
+				return false;
+			}
+			$('#comments_list').html("<div class='comments-loading'>" +
+				"<img alt='Loading...' class='load-image' src='//static.anquan.org/static/images/loading.gif'>" +
+				"<span>点评内容加载中...</span></div>");
+			get_page(url,type);
+		}
+	});
+	$(".comment_form textarea[name='comment'], .reply_comment_form textarea[name='comment']").live('keyup',function(){
+		var val = $.trim($(this).val());
+		if(val) {
+			$(this).parent().next('button.comment_button').removeAttr('m_disabled');
+		}else{
+			$(this).parent().next('button.comment_button').attr('m_disabled','m_disabled');
+		}
+	});
+	$(".comment_form textarea[name='comment']").live('focus',function(){
+
+		//刷新验证码
+		$form = $(".comment_form");
+		$form.find("div.captcha-row:visible a").trigger("click");
+		$(".reply_comment_form").hide();
+		//$form.find("#captcha").val('');
+	});
+
+	$("#risk_toggler").live('click', function(){
+		$("#risk_div").slideToggle();
+	});
+
+	$(".reply-toggler").live('click', function(){
+		//刷新验证码
+		$(this).closest(".comments").next().find("img.captcha").click();
+		//$("#captcha_div").hide();
+		$(".captcha-row").hide();
+		var site_id = $(this).attr('id');
+		$("#reply_"+site_id).closest(".comments").siblings(".comments").find(".reply_comment_form").hide();
+		if(!$("#reply_"+site_id).is(":visible")){
+		window.site_id = site_id;
+			$("#reply_"+site_id).slideDown(function(){
+				//再次绑定MAXLENGTH HACK
+					var _this = $(this);
+					if($.browser.msie && $.browser.version<10){
+						_this.find(".rep_txt_area").maxlength();
+						_this.find(".rep_txt_area").ksHolder();
+						}
+			});
+		}
+		$("#reply_"+site_id).find('form').find("div.captcha-row:visible a").trigger("click");
+	});
+	$(document).on("click",".cancel-replay",function(){
+		$(this).closest(".reply_comment_form").slideUp();
+	})
+
+	$(".more_reply").live('click',function(){
+		var comment_id = $(this).parents(".comment_replys").attr('id');
+		var url = "/seccenter/more_reply/?comment_id=" + comment_id;
+		$(this).addClass('hide');
+		$(this).after("<img class='reply_loading load-image' alt='Loading...' src='//static.anquan.org/static/images/loading.gif'>");
+		more_reply(comment_id, url);
+	});
+	
+	
+	//登录首页增加贡献值
+	
+
+});
+
+function renling(){
+	$.get("/seccenter/renling_site/",{site:"www.dilidili.wang"});
+}
+
+$(function() {
+		$(".tg_offical").on("click",function(){
+			$("[name=wzmp]").trigger("click");
+		})
+		$("#snapshot_accusation").mTooltip({
+			content: $('div#snapshot_accusation_content'),
+			anchor:  "#snapshot_accusation_text",
+			trigger: "hover"
+		});
+
+		$('#snapshot_accusation').click(function(click_event) {
+			click_event.preventDefault();
+		});
+		GLOBAL.require.ready("MOD_QT_BOX_JS",function(){
+			var win_width_max = $(window).width() - 100;
+			$(window).resize(function(){
+				GLOBAL.Event.lazy(function(){
+					win_width_max = $(window).width() - 100;
+					img_fancybox(win_width_max);
+				},50)
+				})
+			function img_fancybox(mwidth){
+				$(".fc_img_con,.show_img").fancybox({
+					'openEffect': 'elastic',
+					'padding':5,
+					'closeEffect':'elastic',
+					'helpers':{
+						title:{
+							type:"over"
+						},
+						overlay:{
+							locked:false
+						}
+					},
+					'nextEffect':'fade',
+					'prevEffect':'fade',
+					'scrolling':"no",
+					'autoResize':false,
+					'fitToView':false,
+					'nextClick':true,
+					'wrapCSS':"fc_pf_img",
+					'maxWidth':mwidth
+				});
+			}
+			img_fancybox(win_width_max);
+			$(".J_mod_fm").QT_box({
+				init:function(){
+				 $(this.wrap).bind('click',function(){
+					 window.location.href = "http://www.pinpaibao.com.cn/intro/index/";
+					});
+				},
+				wrapCSS:"md_jump"
+				});
+			$(".J_zhanzhang_help").QT_box({
+				wrapCSS:"md_zhanzhang_ss"
+			})
+
+		})
+		$('button#snapshot_accusation_button').click(function(click_event) {
+			click_event.preventDefault();
+			var url = '/seccenter/snapshot_accusation/snapshot_info/';
+			var domain = 'www.dilidili.wang';
+			var accusation_url = 'www.dilidili.wang';
+			var snapshot_url = '//shot.anquan.org/api/thumb/?client=scanv&size=L&blur=&url=&sign=';
+
+			$.ajax({
+				method: 'GET',
+				url: url,
+				data: {'domain': domain,
+					   'url': accusation_url,
+					   'snapshot_url': snapshot_url},
+				success: function(result) {
+					if(result == 1) {
+						mtip('截图举报成功。', 'success');
+					}
+					if(result == 0) {
+						mtip('截图举报有误。', 'error');
+					}
+					if(result == 2) {
+						mtip('24小时内不能重复举报。', 'error');
+					}
+					if(result == 3) {
+						mtip('您举报的图太多了，休息一下吧。', 'warning');
+					}
+				}
+			});
+		});
+	});
+
+
+function comp_card(){
+	
+		window.location.href = "/seccenter/add_session_jump/?comp_card=www.dilidili.wang";
+	
+}
+</script>
+
+		
+		
+	
+ 
+<div class="hide">
+	<script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?2be49f6cd538ae6846f4f7d802dd8e76";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+	</script>
+</div>
+</html>

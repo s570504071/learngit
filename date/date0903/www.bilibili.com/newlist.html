@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>最新视频列表 - 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</title>
+            <meta name="description" content="bilibili是国内知名的视频弹幕网站，这里有最及时的动漫新番，最棒的ACG氛围，最有创意的Up主。大家可以在这里找到许多欢乐。">
+                <meta name="keywords" content="B站,弹幕,字幕,AMV,MAD,MTV,ANIME,动漫,动漫音乐,游戏,游戏解说,ACG,galgame,动画,番组,新番,初音,洛天依,vocaloid">
+                    <meta name="renderer" content="webkit">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                            <link rel="shortcut icon" href="//static.hdslb.com/images/favicon.ico">
+                                <link rel="search" type="application/opensearchdescription+xml" href="//static.hdslb.com/opensearch.xml" title="哔哩哔哩" />
+
+                                <link rel="stylesheet" href="//static.hdslb.com/images/jquery-ui/custom/jquery-ui.css" type="text/css">
+                                    <link rel="stylesheet" href="//static.hdslb.com/css/core-v5/page-core.css" type="text/css" />
+
+                                    <script type="text/javascript" src="//static.hdslb.com/js/jquery.min.js"></script>
+                                    <script type="text/javascript" src="//static.hdslb.com/js/jquery-ui.min.js"></script>
+                                    <script type="text/javascript" src="//static.hdslb.com/js/core-v5/base.core.js"></script>
+                                    <script type="text/javascript" src="//s3.hdslb.com/bfs/cm/st/seed.js"></script>
+<link rel="stylesheet" type="text/css" href="//static.hdslb.com/css/core-v5/newlist.css"/>
+<script type="text/javascript" src="//static.hdslb.com/images/jquery.ui.datepicker-zh-CN.js"></script>
+<style>
+    form {
+        display:inline;
+    }
+</style>
+<!--[if lte IE 6]>
+<script>var LETSKILLIE6_DELAY=3;</script>
+<script src="//static.hdslb.com/images/js/killie6.js"></script>
+<![endif]-->
+</head><body>
+   <!-- 2017-09-04 10:17:08 -->    <script type="text/javascript">biliAdjust();
+            $(function () {
+                biliAdjust(true);
+                $(window).resize(biliAdjust);
+            });</script>
+
+    <div class="float_window"><div class="close"></div><div id="float_window"></div></div>
+
+    <div class="z_top_container">
+        <div class="z_top b-header-blur">
+            <div class="b-header-mask-wrp"><div class="b-header-mask-bg"></div><div class="b-header-mask"></div></div>
+            <div class="z_header">
+                <div class="z_top_nav">
+                    <!--<div id="httpsNotWorkTips">
+    <text style="font-family: 'PingFang SC'; font-size: 16px; font-variant-ligatures: normal; orphans: 2; widows: 2; color: red;">访问异常？</text><span style="font-family: 'PingFang SC'; font-size: medium; font-variant-ligatures: normal; orphans: 2; widows: 2;">&nbsp;</span><a style="font-family: 'PingFang SC'; font-size: medium; font-variant-ligatures: normal; orphans: 2; widows: 2; color: blue;" target="_blank" href="http://www.bilibili.com/html/diagnostics.html">【点击这里】</a><span style="font-family: 'PingFang SC'; font-size: medium; font-variant-ligatures: normal; orphans: 2; widows: 2;">&nbsp;</span><text style="font-family: 'PingFang SC'; font-size: 16px; font-variant-ligatures: normal; orphans: 2; widows: 2; color: red;">请将的诊断结果与系统环境、正在使用的浏览器信息发送给我们，邮箱：bug@bilibili.com，或进入</text><span style="font-family: 'PingFang SC'; font-size: medium; font-variant-ligatures: normal; orphans: 2; widows: 2;">&nbsp;</span><a style="font-family: 'PingFang SC'; font-size: medium; font-variant-ligatures: normal; orphans: 2; widows: 2; color: blue;" target="_blank" href="http://link.acg.tv">【用户反馈论坛】</a><span style="font-family: 'PingFang SC'; font-size: medium; font-variant-ligatures: normal; orphans: 2; widows: 2;">&nbsp;</span><text style="font-family: 'PingFang SC'; font-size: 16px; font-variant-ligatures: normal; orphans: 2; widows: 2; color: red;">反映。</text><span style=" font-size:12pt;font-family:DengXian ;;;"><br></span>
+</div>-->
+<ul>
+	<li class="home">
+		<a class="i-link" href="//www.bilibili.com/index.html"><span>主站</span></a>
+	</li>
+		<li class="hbili"><a class="i-link" href="http://h.bilibili.com/" title="画友">画友</a></li>
+	<li class="b-gc" hasframe="true">
+		<a class="i-link" href="//game.bilibili.com/" title="游戏中心">游戏中心</a>
+		<div class="i_div game" data-frame="game"></div>
+	</li>
+		<li class="live" hasframe="true">
+		<a class="i-link" target="_blank" href="//live.bilibili.com" title="直播">直播</a>
+		<div class="i_div stream" data-frame="stream"></div>
+	</li>
+  <li class="b-ml"><a class="i-link" target="_blank" href="//show.bilibili.com/platform/home.html" title="会员购">会员购</a></li>
+	<li class="b-zb"><a class="i-link" target="_blank" href="//bmall.bilibili.com/#!/" title="周边">周边</a></li>
+	<li class="shouji">
+		<a class="i-link" target="_blank" href="//app.bilibili.com" title="移动端">移动端</a>
+		<div class="mobile-p-box"><div class="mobile-p-qrcode"></div></div>
+	</li>
+	<li class="b-mz"  hasframe="true">
+	  <a class="i-link" target="_blank" href="//bangumi.bilibili.com/moe/2017/index" title="萌战">萌战</a>
+			<i class="new"></i>
+			<i class="dot"></i>
+			<div class="i_div mz" data-frame="mz"></div>
+		</a>
+	</li>
+</ul>
+                </div>
+                <div class="uns_box">
+	<ul class="menu">
+		<li id="i_menu_profile_btn" guest="no" class="u-i i_user" i_menu="#i_menu_profile">
+			<a class="i-link" href="//space.bilibili.com/" target="_blank">
+				<img class="i_face">
+			</a>
+			<div id="i_menu_profile" class="i_menu">
+				<div class="i_menu_bg_t"></div>
+				<div class="info clearfix"><div class="uname"></div><div class="coin"></div></div>
+				<div class="member-menu-wrp">
+					<ul class="member-menu">
+						<li><a href="https://account.bilibili.com/site/home" target="_blank" class="account"><i class="b-icon b-icon-p-account"></i>个人中心</a></li>
+						<li><a href="//member.bilibili.com/v/#/article" target="_blank" class="member"><i class="b-icon b-icon-p-member"></i>投稿管理</a></li>
+						<li><a href="https://pay.bilibili.com/" target="_blank" class="wallet"><i class="b-icon b-icon-p-wallet"></i>B币钱包</a></li>
+						<li><a href="//link.bilibili.com/p/center/index" target="_blank" class="live"><i class="b-icon b-icon-p-live"></i>直播中心</a></li>
+						<li><a href="//show.bilibili.com/platform/home.html" target="_blank" class="ticket"><i class="b-icon b-icon-p-ticket"></i>会员购订单</a></li>
+					</ul>
+				</div>
+				<div class="member-bottom">
+					<a class="logout" href="https://account.bilibili.com/login?act=exit">退出</a>
+				</div>
+			</div>
+		</li>
+		<li id="i_menu_become_vip" guest="no" i_menu="become_vip" class="u-i">
+			<a class="i-link" href="//big.bilibili.com/site/big.html" target="_blank">成为大会员</a>
+		</li>
+		<li id="i_menu_community_msg_btn" guest="no" i_menu="community_msg" class="u-i">
+            <a class="i-link" href="//message.bilibili.com" target="_blank">消息</a>
+        </li>
+		<li id="i_menu_msg_btn" guest="no" i_menu="#dyn_wnd" class="u-i">
+			<div class="num" id="dynamic_num_total"></div>
+			<a class="i-link" href="//www.bilibili.com/account/dynamic" target="_blank">动态</a>
+		</li>
+    <li id="i_menu_watchLater_btn" guest="no" class="u-i" style="display:list-item">
+      <a class="i-link" href="//www.bilibili.com/watchlater/#/list" target="_blank">稍后再看</a>
+    </li>
+		<li id="i_menu_fav_btn" guest="no" i_menu="#i_menu_fav" class="u-i">
+			<a class="i-link" href="//space.bilibili.com/#!/favlist" target="_blank">收藏夹</a>
+		</li>
+		<li id="i_menu_login_reg" guest="yes" class="u-i">
+			<a id="i_menu_login_btn" class="i-link login" href="https://account.bilibili.com/login"><span>登录</span></a><i class="s-line"></i><a id="i_menu_register_btn" class="i-link reg" href="https://www.bilibili.com/register"><span>注册</span></a>
+		</li>
+		<li id="i_menu_history_btn" class="u-i">
+			<a class="i-link" href="//www.bilibili.com/account/history">历史</a>
+		</li>
+		<li class="u-i b-post">
+			<a class="i-link" href="//member.bilibili.com/v/video/submit.html" target="_blank">投 稿</a>
+			<ul class="s-menu">
+        <li class="article"><a href="//member.bilibili.com/v/#/text-apply" target="_blank"><i class="b-icon b-icon-art"></i><em>专栏投稿</em></a></li>
+        <li class="music-up"><a href="//www.bilibili.com/audio/submit/" target="_blank"><i class="b-icon b-icon-music"></i><em>音频投稿</em></a></li>
+				<li><a href="//member.bilibili.com/v/video/submit.html" target="_blank"><i class="b-icon b-icon-vp"></i><em>视频投稿</em></a></li>
+				<li><a href="//member.bilibili.com/v/#/article" target="_blank"><i class="b-icon b-icon-vm"></i><em>投稿管理</em></a></li>
+				<li><a href="//member.bilibili.com/v/" target="_blank"><i class="b-icon b-icon-vc"></i><em>创作中心</em></a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="h-center">
+            <a href="//www.bilibili.com/index.html" class="logo"></a>
+            <a href="//www.bilibili.com/random" target="_blank" title="随便找个视频看看?" class="lsb"></a>
+        </div>
+        <div class="num">
+            <div class="menu-wrapper">			
+                <ul class="nav-menu">
+	<li class="m-i home"><a class="i-link" href="//www.bilibili.com/index.html"><em>首页</em></a></li>
+	<!-- 动画 -->
+	<li class="m-i" data-tid="1">
+		<a class="i-link" href="//www.bilibili.com/video/douga.html"><em>动画</em><div class="v-num"><span class="addnew_1">--</span></div></a>
+		<ul class="i_num">
+			<li><a href="//www.bilibili.com/video/douga-mad-1.html"><b>MAD·AMV<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/douga-mmd-1.html"><b>MMD·3D<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/douga-voice-1.html"><b>短片·手书·配音<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/douga-else-1.html"><b>综合<em></em></b></a></li>
+		</ul>
+	</li>
+	<!-- 番剧 -->
+	<li class="m-i" data-tid="13">
+		<a class="i-link" href="//bangumi.bilibili.com/22/"><em>番剧</em><div class="v-num"><span class="addnew_13">--</span></div></a>
+		<ul class="i_num">
+			<li><a href="//www.bilibili.com/video/bangumi-two-1.html"><b>连载动画<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/part-twoelement-1.html"><b>完结动画<em></em></b></a></li>
+            <li><a href="//www.bilibili.com/video/douga-else-information-1.html"><b>资讯<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/bagumi_offical_1.html"><b>官方延伸<em></em></b></a></li>
+            <li><a href="//bangumi.bilibili.com/anime/timeline"><b>新番时间表<em></em></b></a></li>
+            <li><a href="//bangumi.bilibili.com/anime/index"><b>番剧索引<em></em></b></a></li>
+		</ul>
+	</li>
+	<!-- 国创 -->
+	<li class="m-i" data-tid="167">
+		<a class="i-link" href="//bangumi.bilibili.com/guochuang/"><em>国创</em><div class="v-num"><span class="addnew_167">--</span></div></a>
+		<ul class="i_num">
+			<li><a href="//www.bilibili.com/video/bangumi_chinese_1.html"><b>国产动画<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/guochuang-fanvid-1.html"><b>国产原创相关<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/glove-puppetry-1.html"><b>布袋戏<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/guochuang-offical-1.html"><b>资讯<em></em></b></a></li>
+			<li><a href="//bangumi.bilibili.com/guochuang/timeline"><b>新番时间表<em></em></b></a></li>
+			<li><a href="//bangumi.bilibili.com/guochuang/index"><b>国产动画索引<em></em></b></a></li>
+		</ul>
+	</li>
+	<!-- 音乐 -->
+	<li class="m-i" data-tid="3">
+		<a class="i-link" href="//www.bilibili.com/video/music.html"><em>音乐</em><div class="v-num"><span class="addnew_3">--</span></div></a>
+		<ul class="i_num">
+			<li><a href="//www.bilibili.com/video/music-original-1.html"><b>原创音乐<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/music-Cover-1.html"><b>翻唱<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/music-vocaloid-1.html"><b>VOCALOID·UTAU<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/music-perform-1.html"><b>演奏<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/music-coordinate-1.html"><b>三次元音乐<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/music-oped-1.html"><b>OP/ED/OST<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/music-collection-1.html"><b>音乐选集<em></em></b></a></li>
+		</ul>
+	</li>
+	<!-- 舞蹈 -->
+	<li class="m-i" data-tid="129">
+		<a class="i-link" href="//www.bilibili.com/video/dance.html"><em>舞蹈</em><div class="v-num"><span class="addnew_129">--</span></div></a>
+		<ul class="i_num">
+			<li><a href="//www.bilibili.com/video/dance-1.html"><b>宅舞<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/three-dimension-dance-1.html"><b>三次元舞蹈<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/dance-demo-1.html"><b>舞蹈教程<em></em></b></a></li>
+		</ul>
+	</li>
+	<!-- 游戏 -->
+	<li class="m-i" data-tid="4">
+		<a class="i-link" href="//www.bilibili.com/video/game.html"><em>游戏</em><div class="v-num"><span class="addnew_4">--</span></div></a>
+		<ul class="i_num">
+			<li><a href="//www.bilibili.com/video/videogame-1.html"><b>单机游戏<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/esports-1.html"><b>电子竞技<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/mobilegame-1.html"><b>手机游戏<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/onlinegame-1.html"><b>网络游戏<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/boardgame-1.html"><b>桌游棋牌<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/gmv-1.html"><b>GMV<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/music-game-1.html"><b>音游<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/game-mugen-1.html"><b>Mugen<em></em></b></a></li>
+		</ul>
+	</li>
+	<!-- 科技 -->
+	<li class="m-i" data-tid="36">
+		<a class="i-link" href="//www.bilibili.com/video/technology.html"><em>科技</em><div class="v-num"><span class="addnew_36">--</span></div></a>
+		<ul class="i_num">
+			<li><a href="//www.bilibili.com/video/tech-popular-science-1.html"><b>纪录片<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/tech-fun-1.html"><b>趣味科普人文<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/tech-wild-1.html"><b>野生技术协会<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/speech-course-1.html"><b>演讲·公开课<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/tech-future-military-1.html"><b>星海<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/tech-future-digital-1.html"><b>数码<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/tech-future-other-1.html"><b>机械<em></em></b></a></li>
+		</ul>
+	</li>
+	<!-- 生活 -->
+	<li class="m-i" data-tid="160">
+		<a class="i-link" href="//www.bilibili.com/video/life.html"><em>生活</em><div class="v-num"><span class="addnew_160">--</span></div></a>
+		<ul class="i_num">
+			<li><a href="//www.bilibili.com/video/ent_funny_1.html"><b>搞笑<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/ent-life-1.html"><b>日常<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/ent-food-1.html"><b>美食圈<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/ent-animal-1.html"><b>动物圈<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/ent-handmake-1.html"><b>手工<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/ent-painting-1.html"><b>绘画<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/ent-sports-1.html"><b>运动<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/others-1.html"><b>其他<em></em></b></a></li>
+		</ul>
+	</li>
+	<!-- 鬼畜 -->
+	<li class="m-i" data-tid="119">
+		<a class="i-link" href="//www.bilibili.com/video/kichiku.html"><em>鬼畜</em><div class="v-num"><span class="addnew_119">--</span></div></a>
+		<ul class="i_num">
+			<li><a href="//www.bilibili.com/video/ent-Kichiku-1.html"><b>鬼畜调教<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/douga-kichiku-1.html"><b>音MAD<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/kichiku-manual_vocaloid-1.html"><b>人力VOCALOID<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/kichiku-course-1.html"><b>教程演示<em></em></b></a></li>
+		</ul>
+	</li>
+	<!-- 时尚 -->
+	<li class="m-i" data-tid="155">
+		<a class="i-link" href="//www.bilibili.com/video/fashion.html"><em>时尚</em><div class="v-num"><span class="addnew_155">--</span></div></a>
+		<ul class="i_num">
+			<li><a href="//www.bilibili.com/video/fashion-makeup-fitness-1.html"><b>美妆<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/fashion-clothing-1.html"><b>服饰<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/fashion-body-1.html"><b>健身<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/fashion-info-1.html"><b>资讯<em></em></b></a></li>
+		</ul>
+	</li>
+	<!-- 广告 -->
+	<li class="m-i" data-tid="165">
+		<a class="i-link" href="//www.bilibili.com/video/ad-ad-1.html"><em>广告</em><div class="v-num"><span class="addnew_165">--</span></div></a>
+	</li>
+	<!-- 娱乐 -->
+	<li class="m-i" data-tid="5">
+		<a class="i-link" href="//www.bilibili.com/video/ent.html"><em>娱乐</em><div class="v-num"><span class="addnew_5">--</span></div></a>
+		<ul class="i_num">
+			<li><a href="//www.bilibili.com/video/ent-variety-1.html"><b>综艺<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/ent-circle-1.html"><b>明星<em></em></b></a></li>
+			<li><a href="//www.bilibili.com/video/ent-korea-1.html"><b>Korea相关<em></em></b></a></li>
+		</ul>
+	</li>
+	<!-- 影视 -->
+	<li class="m-i" data-tid="23">
+		<a class="i-link" href="//bangumi.bilibili.com/33/"><em>影视</em><div class="v-num"><span class="addnew_23_11">--</span></div></a>
+		<ul class="i_num">
+			<li><a href="//bangumi.bilibili.com/movie/"><b>电影<em></em></b></a></li>
+			<li><a href="//bangumi.bilibili.com/tv/"><b>电视剧<em></em></b></a></li>
+		</ul>
+	</li>
+	<li class="m-i m-i-square">
+		<a class="i-link" href="//www.bilibili.com/square"><em>广场</em></a>
+		<div class="i_num">
+			<ul>
+        <li><a href="//show.bilibili.com/platform/home.html"><i class="vip-buy"></i><b>会员购</b></a></li>
+				<li><a href="//activity.bilibili.com"><i class="b-icon b-icon-n-activity"></i><b>活动中心</b></a></li>
+				<li><a href="//game.bilibili.com"><i class="b-icon b-icon-n-gc"></i><b>游戏中心</b></a></li>
+				<li><a href="//news.bilibili.com"><i class="b-icon b-icon-n-new"></i><b>新闻中心</b></a></li>
+				<li><a href="//h.bilibili.com/"><i class="b-icon b-icon-n-h"></i><b>画友</b></a></li>
+				<li><a href="//www.bilibili.com/mango"><i class="b-icon b-icon-n-mango"></i><b>芒果TV</b></a></li>
+			</ul>
+		</div>
+	</li>
+  <li class="m-i m-i-live m-i-last">
+		<a class="i-link" href="//live.bilibili.com"><em>直播</em></a>
+    <div class="nav-live i_num">
+      <ul>
+  			<li><a href="//live.bilibili.com/subject"><b>推荐主播<em></em></b></a></li>
+  			<li><a href="//live.bilibili.com/pages/area/ent"><b>生活娱乐<em></em></b></a></li>
+  			<li><a href="//live.bilibili.com/draw"><b>绘画专区<em></em></b></a></li>
+  			<li><a href="//live.bilibili.com/pages/area/ent"><b>唱见舞见<em></em></b></a></li>
+  			<li><a href="//live.bilibili.com/pages/area/ent"><b>御宅文化<em></em></b></a></li>
+  			<li><a href="//live.bilibili.com/single"><b>单机联机<em></em></b></a></li>
+  			<li><a href="//live.bilibili.com/online"><b>网络游戏<em></em></b></a></li>
+  			<li><a href="//live.bilibili.com/e-sports"><b>电子竞技<em></em></b></a></li>
+  			<li><a href="//live.bilibili.com/mobile-game"><b>手游直播<em></em></b></a></li>
+  		</ul>
+      <div class="live-field">
+        <a class="pic" target="_blank" href="//www.bilibili.com/p/"><img src="//static.hdslb.com/images/base/live/wh2.png" alt="有文画"></a>
+        <a class="pic" target="_blank" href="//vc.bilibili.com"><img src="//static.hdslb.com/images/base/live/sp2.png" alt="小视频"></a>
+      </div>
+    </div>
+	</li>
+	<li class="m-i m-i-blackroom"><a class="i-link" href="//www.bilibili.com/blackroom/"><em>小黑屋</em></a></li>
+</ul>
+                <div class="menu-r">
+                    <a id="random_p" class="random-p" target="_blank"></a>
+                </div>
+                <div class="search">
+                    <form action="//search.bilibili.com/all" id="searchform" target="_blank">
+                        <input name="keyword" type="text" class="search-keyword" id="search-keyword" autocomplete="off" accesskey="s" x-webkit-speech x-webkit-grammar="builtin:translate">
+                        <button type="submit" class="search-submit"></button>
+                    </form>
+                    <a class="link-ranking" href="//www.bilibili.com/ranking" target="_blank"><span>排行榜</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="b-page-body">
+        <div class="container-body">
+    <!--[if IE 6]>
+    <h2>如果您在进入首页时见到此界面，请您更新浏览器，IE6由于兼容问题将无法浏览首页。</h2>
+    推荐浏览器：<a href="//www.apple.com.cn/safari/" target="_blank">Safari</a>&nbsp;&nbsp;<a href="//www.operachina.com/" target="_blank">Opera</a>&nbsp;&nbsp;<a href="//www.google.com/chrome/" target="_blank">Chrome</a>&nbsp;&nbsp;<a href="//firefox.com.cn/" target="_blank">Firefox 3+</a>&nbsp;&nbsp;<a href="//windows.microsoft.com/ie9" target="_blank">IE9</a>&nbsp;&nbsp;Maxthon 3+
+    <![endif]-->
+    <div class="newlist_info clearfix">
+        <div class="b-head">
+            <span class="b-head-i newlist"></span>
+            <span class="b-head-t newlist">最新视频列表</span>
+            <span class="b-head-s">这里储存了网站一星期内的最新投稿视频.	</span>
+        </div>
+        <form action="/newlist.html" method="get" id="show_list">
+            <input type="checkbox" name="new" value="1" id="show_new"  checked="checked"  /><label for="show_new" id="show_new_choice"> 最新一星期投稿</label><span id="show_specify" style="display:none">  <input type="text" name="date" id="specify_date" class="b-input" value="2017-09-04" size="10" /></span> <span class="dynamic_list">&nbsp;</span><input type="submit" value="确定" class="b-btn w" />
+        </form>
+        <!--[if IE 6]>
+        <script language="JavaScript">
+            $("#show_list").hide();
+        </script>
+        <![endif]-->
+    </div>
+    <div class="new_list">
+        <ul class="vd_list">
+                            <li class="l1">
+                    <a href="/video/av14154365/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/eacafec396e3b53f951fa35b024e0e87ab6764fa.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154365/" target="_blank" class="title" vid="1">【小苍出品】LOL坑爹集锦TOP5_第18期 提莫...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:14</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">【小苍出品】LOL坑爹集锦TOP5_第18期 提莫的逆袭_标清 http://www.sinotf.com/GB/129/1297/2017-07-19/3OMDAwMDI1MjQ3OA.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154345/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/e8aecbf30e0823c3b62242bee9a6dec94edbeb81.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=27">(综合)</a>
+                    <a href="/video/av14154345/" target="_blank" class="title" vid="2">雪河x燕云 唐门内销  躲起来偷偷看（腐向）</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:13</i>
+                    </div>
+                    <div class="up" target="_blank">讨厌下雨讨厌晴</div>
+                    <div class="info">自娱自乐的产物，做截图中意外变成了这样，就随手用手机录了一下。第一次投稿，非常的粗制滥造，不喜勿喷！
+脸型是网上的，自己有一点小修改，侵删。</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154343/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/077f301ce5e6e817934a60aedb7bfca07ce08664.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154343/" target="_blank" class="title" vid="3">【小智FA】lol受惊时刻TOP5，第一期！_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:13</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">【小智FA】lol受惊时刻TOP5，第一期！_标清 http://www.sinotf.com/GB/129/1297/2017-07-18/3MMDAwMDI1MjE3MA.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154335/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/e4b95c234edea7bd557fe86964e587db10227ecf.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154335/" target="_blank" class="title" vid="4">DNF圣物9征战者27秒格兰迪9图（竞速）_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:13</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">DNF圣物9征战者27秒格兰迪9图（竞速）_标清 http://fz.comnews.cn/sc/201707/12079.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154332/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/f4ee2dc4e1b7778ba959638242099fd2973097bf.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=138">(搞笑)</a>
+                    <a href="/video/av14154332/" target="_blank" class="title" vid="5">元首的愤怒炒股版</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:13</i>
+                    </div>
+                    <div class="up" target="_blank">AU说</div>
+                    <div class="info">元首说，我炒股老棒老棒的，于是就试试，然后试试就试试...</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154321/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/a698eb9dca135f97f12d4c2f5d1a3d4c6f451f20.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154321/" target="_blank" class="title" vid="6">LOL LOGO EZ快到碗里来 每周一曲_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:12</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">LOL LOGO EZ快到碗里来 每周一曲_标清 http://www.doyo.cn/article/321200</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154316/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/05c5db18356a834fc6c54118c9ec460e62bd44d9.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154316/" target="_blank" class="title" vid="7">LOL S5全球总决赛 决赛预热 主题曲《决战》_...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:12</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">LOL S5全球总决赛 决赛预热 主题曲《决战》_标清 http://yc.sxgov.cn/content/2017-07/18/content_8193532.htm</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154313/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/9354bb50364d9dd0501b251e9d4744a0f0b81308.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154313/" target="_blank" class="title" vid="8">LOL韩国王者组精彩击杀TOP5  隐形的薇恩_标...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:12</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">LOL韩国王者组精彩击杀TOP5  隐形的薇恩_标清 http://news.gao7.com/article/831411-20170718-1</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154310/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/a747d801a58714ad6fc8545fa1c9c9529289aed4.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154310/" target="_blank" class="title" vid="9">LOL精彩搞笑瞬间183_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:11</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">LOL精彩搞笑瞬间183_标清 http://www.sinotf.com/GB/129/1297/2017-07-18/zMMDAwMDI1MjEzMQ.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154305/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/ed76ea2e6b4b7a7861f190bfb5a97c60bbd5cff6.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154305/" target="_blank" class="title" vid="10">LOL每周一曲—《坑爹之王》_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:11</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">LOL每周一曲—《坑爹之王》_标清 http://www.cnfina.com/kuaixun/20170718_105907.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154297/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/a8507fc41740c61d40a55a9af171f6264b18789a.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154297/" target="_blank" class="title" vid="11">LOL史上最快的移动速度_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:11</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">LOL史上最快的移动速度_标清 http://www.doyo.cn/article/321342</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154292/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/da88d86f1298f4478c7c8819841803cbb0941268.png">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154292/" target="_blank" class="title" vid="12">脸黑是种什么样的体验</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:11</i>
+                    </div>
+                    <div class="up" target="_blank">Royal丶CK</div>
+                    <div class="info">emmm...</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154291/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/21f2862cc47d5438f5e4537b2103f9f76abb696b.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154291/" target="_blank" class="title" vid="13">LoL英雄联盟官方第一季 CG 宣传片_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:11</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">LoL英雄联盟官方第一季 CG 宣传片_标清 http://fz.comnews.cn/sc/201707/12074.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154287/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/42216ad4a40186e6de18699db303795b717ff949.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=30">(VOCALOID·UTAU)</a>
+                    <a href="/video/av14154287/" target="_blank" class="title" vid="14">【初音ミク】Litter knit【テシマ】</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:11</i>
+                    </div>
+                    <div class="up" target="_blank">Yikori</div>
+                    <div class="info">sm31854597
+6作目です。
+
+曲詞:テシマ(mylist/58955728)
+Twitter:@otogi3121
+
+絵:ぬくぬくにぎりめし(http://piapro.jp/NKNK57)
+Twitter:@NKNK_NGRMS
+
+前作:ひらひら(sm31660773)
+次作:少々お待ちを。。。
+
+カラオケ:http://piapro.jp/t/rsL-
+誰か歌って～～</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154286/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/7fc9da0c99d9b4001824878919d031bff47aca93.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154286/" target="_blank" class="title" vid="15">XCOM 2新DLC“天选者之战”CG预告_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:11</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">XCOM 2新DLC“天选者之战”CG预告_标清 http://www.gao7.com/bg/detail-830954-1.shtm</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154285/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/a1794fe69d3cee8a73a64db6cbab302c1f130237.png">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=21">(日常)</a>
+                    <a href="/video/av14154285/" target="_blank" class="title" vid="16">【日常撸猫】丧心病狂的撸猫</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:11</i>
+                    </div>
+                    <div class="up" target="_blank">Aini_99</div>
+                    <div class="info">http://weibo.com/tv/v/Fk9RXznNO?fid=1034:47d1a63e7db6d302c0ccd425e532357f
+微博转载：http://weibo.com/tv/v/Fk9RXznNO?fid=1034:47d1a63e7db6d302c0ccd425e532357f</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154283/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/81dec8b762b5788d6b19e7d0054db7281a307b8a.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=164">(健身)</a>
+                    <a href="/video/av14154283/" target="_blank" class="title" vid="17">【专访95后张香怡】斗鱼瑜伽小仙女主播，直播一个月...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:10</i>
+                    </div>
+                    <div class="up" target="_blank">邹赐峰</div>
+                    <div class="info">http://yuntv.letv.com/bcloud.html?uu=18xxrdccyx&amp;vu=2c4b10b2e5
+我是张香怡，斗鱼直播平台的瑜伽主播，直播一个月，目前粉丝量近30万。</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154279/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/8891b820f666beed1fb5e7119c712940056b180d.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154279/" target="_blank" class="title" vid="18">x圣光星舞x炽天使福音传道者圣骑士女圣职单刷邪龙的...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:10</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">x圣光星舞x炽天使福音传道者圣骑士女圣职单刷邪龙的封印任务变弱的邪龙封印升级视频X天马骑士版X_标清 http://www.sinotf.com/GB/129/1297/2017-07-17/4NMDAwMDI1MTY4NA.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154272/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/3430c7018f79a248efb6f31b0666e6b74a8da087.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154272/" target="_blank" class="title" vid="19">街机游戏 惩罚者- 无数雷的打斗方式 见过吗_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:10</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">街机游戏 惩罚者- 无数雷的打斗方式 见过吗_标清 http://www.cnfina.com/kuaixun/20170717_105806.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154270/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/919964df0615e2473494f96ff8442821ce15287e.png">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=71">(综艺)</a>
+                    <a href="/video/av14154270/" target="_blank" class="title" vid="20">《极限挑战3》复仇回归！宋小宝沙溢拍桌子怒喷：他们...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:10</i>
+                    </div>
+                    <div class="up" target="_blank">腾讯综艺</div>
+                    <div class="info">是上海东方卫视推出的大型励志体验真人秀节目，第一、二季节目六位固定成员是黄渤、孙红雷、黄磊、罗志祥、王迅、张艺兴。
+</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154266/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/ca657adfa65e7bbdbb3eea2240927ffd90bfbc6c.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=27">(综合)</a>
+                    <a href="/video/av14154266/" target="_blank" class="title" vid="21">新人第一次做视频，勿喷</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:10</i>
+                    </div>
+                    <div class="up" target="_blank">正雨英雄</div>
+                    <div class="info">新人第一次投稿</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154265/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/c7896f57c14ee4b716a90d49bb4bdef3359f58ff.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154265/" target="_blank" class="title" vid="22">看后不再出法装! 王者荣耀嬴政, 攻速才是真王者(...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:10</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">看后不再出法装! 王者荣耀嬴政, 攻速才是真王者(实战)_标清 http://www.doyo.cn/article/321093</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154261/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/b346e17f7dc86a8f2497962ff1393ac12abae73b.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154261/" target="_blank" class="title" vid="23">魔兽世界 31箱子连开 没出橙 距离全橙者很远 军...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:10</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">魔兽世界 31箱子连开 没出橙 距离全橙者很远 军团再临 店长推荐_标清 http://fz.comnews.cn/sc/201707/12071.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154260/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/5220ca9c9b62b0be09ee6326058231bae6f051f2.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=17">(单机游戏)</a>
+                    <a href="/video/av14154260/" target="_blank" class="title" vid="24">最速通关（speedrun）：GTA Libert...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:10</i>
+                    </div>
+                    <div class="up" target="_blank">EagleSuperCow</div>
+                    <div class="info">https://www.youtube.com/watch?v=2ab8Y0k8ygg
+侠盗猎车手 自由城 - Gangsta Bang 100% 最速通关
+GTA 1 - Liberty City - Gangsta Bang 100% in 24:26
+PC on 2017-07-27</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154254/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/bd95d3fd1abb0fd3877e104390e0d129baa16702.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154254/" target="_blank" class="title" vid="25">神剪辑！当十万个冷笑话遇上LOL_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:09</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">神剪辑！当十万个冷笑话遇上LOL_标清 http://www.sinotf.com/GB/129/1297/2017-07-17/yNMDAwMDI1MTgyNA.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154253/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/41a69350b73c910b56a2f6ea66306270a49dc025.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=138">(搞笑)</a>
+                    <a href="/video/av14154253/" target="_blank" class="title" vid="26">一个人在家的时候就是个深井冰</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:09</i>
+                    </div>
+                    <div class="up" target="_blank">请叫我没节操的小没酱</div>
+                    <div class="info">哇哈哈哈 神鸡病起来自己都怕怕-，-</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154251/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/8e1e1e92a3e853c1f0385e1ac58d96b0287515af.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154251/" target="_blank" class="title" vid="27">神剪辑！那些与LOL中英雄相似的角色_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:09</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">神剪辑！那些与LOL中英雄相似的角色_标清 http://www.cnfina.com/kuaixun/20170717_105832.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154248/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/b2fa64603ac9623fda282ea8e94012e24070a2ad.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=21">(日常)</a>
+                    <a href="/video/av14154248/" target="_blank" class="title" vid="28">video_20170904_094414</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:09</i>
+                    </div>
+                    <div class="up" target="_blank">拾一夏的美好女孩</div>
+                    <div class="info">请监督我学习英语口语
+好长时间不发视频了
+我要闪现闪离</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154245/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/a56fae3486911b3b598801d7682b535746146f1d.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=138">(搞笑)</a>
+                    <a href="/video/av14154245/" target="_blank" class="title" vid="29">下棋风波：大师开阔了新思路 不按套路出棋</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:09</i>
+                    </div>
+                    <div class="up" target="_blank">三对视频</div>
+                    <div class="info">上一次新手跟大师下棋开阔了新的思路，这一次也不按照套路出棋。</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154244/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/faee12f1cd16f32c7196c918e4cf37c6b9f892cb.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=21">(日常)</a>
+                    <a href="/video/av14154244/" target="_blank" class="title" vid="30">15.5手账福袋开箱视频</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:09</i>
+                    </div>
+                    <div class="up" target="_blank">菠萝柠檬橘子水</div>
+                    <div class="info">新手小白试水福袋
+店铺：北京文化用品总汇
+傍晚拍可能光线不太好，谢谢观看n(*≧▽≦*)nn(*≧▽≦*)nn(*≧▽≦*)nn(*≧▽≦*)nn(*≧▽≦*)nn(*≧▽≦*)n</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154243/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/175ab8114761a224b280a730077cb4cef0d72e32.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=31">(翻唱)</a>
+                    <a href="/video/av14154243/" target="_blank" class="title" vid="31">【魔道祖师】问灵</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:09</i>
+                    </div>
+                    <div class="up" target="_blank">啼听听</div>
+                    <div class="info">问灵十三载 等一不归人…
+蓝忘机曾去过无数个地方，皆是魏婴前世踏足之处。犹记莳花园，那以花掩面的女子，但到了那处，才发觉此地荒凉，已是多年未有人理，他便抚琴而坐，铮铮二声。那精魂也显露几分面容，“公子所为何事？”“为寻一人。”“何人？”“魏婴。”</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154241/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/07a4e1ebc28e5a295e3d6272adc3336ffe35a016.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=29">(三次元音乐)</a>
+                    <a href="/video/av14154241/" target="_blank" class="title" vid="32">2017NMB48亞洲巡迴演唱會@臺灣站 10/1...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:09</i>
+                    </div>
+                    <div class="up" target="_blank">难波冲田军</div>
+                    <div class="info">2017NMB48亞洲巡迴演唱會@臺灣站 10/1 臺北ATT SHOW BOX 
+成員自我介紹中日對照教學＆成員簡介　市川美織 ver.
+　　
+NMB48 Team BⅡ 沖田彩華 - 臺灣沖田軍
+https://www.facebook.com/okita19951011/
+　　
+#一起來應援吧</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154236/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/1be3d9bb8dd9c48648b52be915be324c909cee8b.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=71">(综艺)</a>
+                    <a href="/video/av14154236/" target="_blank" class="title" vid="33">【明日之子】荷兹唱跳《刚刚好，能和你遇到》 “好朋...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">腾讯综艺</div>
+                    <div class="info">明日之子是一档全民见证偶像养成记，大咖星推，急速助力，直指最强偶像登顶。杨幂、薛之谦和华晨宇担任星推官，未来偶像诞生，今夏等你</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154234/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/f23a0f5808d9a8c1fcf4df81bcd69545debea78d.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=21">(日常)</a>
+                    <a href="/video/av14154234/" target="_blank" class="title" vid="34">小美喵要来吃掉你啦~</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">请叫我没节操的小没酱</div>
+                    <div class="info">卖萌可耻 哇哈哈0v0</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154231/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/bcaf54c5f398945cbaec2b1236b2404f03d350f9.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154231/" target="_blank" class="title" vid="35">夏威夷《未转变者》Unturned-水一期-【新风...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">夏威夷《未转变者》Unturned-水一期-【新风】_标清 http://yuqing.china.com.cn/show/175858.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154230/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/40596cce35a1cffea579b106fb72d9f84c9972f9.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154230/" target="_blank" class="title" vid="36">小智lol精彩瞬间之各种极限逃跑！_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">小智lol精彩瞬间之各种极限逃跑！_标清 http://www.doyo.cn/article/321098</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154227/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/8cc1690ece549ab9433f0baccb3582aa9b92bf66.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=157">(美妆)</a>
+                    <a href="/video/av14154227/" target="_blank" class="title" vid="37">干净简约日常妆容分享，若有似无就很美~</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">IMe媛蜜</div>
+                    <div class="info">http://www.meipai.com/media/847713495
+1分钟让你变美变自信，简单易学，摆脱手残星人的困扰，做你最贴心的美妆教程尽在@IMe嫒蜜</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154226/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/c1de123bfc26783409750c2756f9d6d1afb5dac1.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=39">(演讲•公开课)</a>
+                    <a href="/video/av14154226/" target="_blank" class="title" vid="38">锵锵三人行 徐静蕾：首次看懂一本英文书感觉开启一扇...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">Youtube精彩视频</div>
+                    <div class="info">https://www.youtube.com/watch?v=bgUAIxPDZgY
+转载自youtube</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154225/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/a3c0ae7958a5c2a70a81cd775e3421e201cb363c.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154225/" target="_blank" class="title" vid="39">3000分激素麦克雷</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">9不是6翻了</div>
+                    <div class="info">不走LYB流的麦克雷</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154224/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/02b4cd201e9e05974238b6d571f7d42e47ed650d.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=21">(日常)</a>
+                    <a href="/video/av14154224/" target="_blank" class="title" vid="40">现在你站在距离我5.5米的地方，这么遥远的恋爱距离...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">余生saber</div>
+                    <div class="info">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦，来个关注呗！！！</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154223/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/0932882ad872c12cc2cb750e1e1b6fdcf4a50080.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154223/" target="_blank" class="title" vid="41">性♂福的米格15比斯【北区】SS王V者SS_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">性♂福的米格15比斯【北区】SS王V者SS_标清 http://fz.comnews.cn/sc/201707/12070.html</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154221/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/f53fac41a96bac71295042cd196ff62828dd18d8.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=21">(日常)</a>
+                    <a href="/video/av14154221/" target="_blank" class="title" vid="42">零花钱里的学问大！这几点，家长做到了吗？</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">财妈聊财商</div>
+                    <div class="info">科学的给零花钱既能让孩子变得更加独立，又能让孩子对金钱的安排更有计划性。</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154220/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/9e59df1a5651a0812390535218184e12c0d0d2b8.png">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=130">(音乐选集)</a>
+                    <a href="/video/av14154220/" target="_blank" class="title" vid="43">探寻Souls of Mischief首专《93 ...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">Chroniccc</div>
+                    <div class="info">制作：Power 106 Los Angeles
+Discover Classic Samples On Souls of Mischief&#39;s &#39;93 &#39;Til Infinity&#39;</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154219/" target="_blank" class="preview">
+                        <img src="//i1.hdslb.com/bfs/archive/871ff76ba62235c41c08ed7e9ce11420596e8777.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=21">(日常)</a>
+                    <a href="/video/av14154219/" target="_blank" class="title" vid="44">越战时期美国陆军的的竹蜻蜓，休伊直升机模型制作</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">大模型校长</div>
+                    <div class="info">这期视频比较特别，教大家一个玩模型比较有趣的玩法。再也不用为模型场景纠结啦，233333。</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154217/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/e3b7691743e89f32b9f3c0a036652ccc2e2b54c6.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154217/" target="_blank" class="title" vid="45">最后生还者资料片混剪-gmv-美国末日_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:08</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">最后生还者资料片混剪-gmv-美国末日_标清 长城宽带 www.ispisp.com 转xswzq</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154213/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/0c1ed5b3d6ca7961bb41c02aaadd7c6f6f88d68c.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=122">(野生技术协会)</a>
+                    <a href="/video/av14154213/" target="_blank" class="title" vid="46">Melodyne 4 安装视频</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:07</i>
+                    </div>
+                    <div class="up" target="_blank">混混基地</div>
+                    <div class="info">Melodyne 4 安装视频
+
+欢迎进群交流后期（划掉）扯淡与下载！
+混混后期混音大扯淡 586132275</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154210/" target="_blank" class="preview">
+                        <img src="//i2.hdslb.com/bfs/archive/d4a40cafc5c32cc044feb15a9543519fe62fb935.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=171">(电子竞技)</a>
+                    <a href="/video/av14154210/" target="_blank" class="title" vid="47">[A18] 普通に攻撃します．改_标清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:07</i>
+                    </div>
+                    <div class="up" target="_blank">ri93271</div>
+                    <div class="info">[A18] 普通に攻撃します．改_标清 读客吧 www.dukeba.com 转wqsd</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154209/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/48d3b4a05ea2cb87407e880e356ba67949f9b7e0.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=172">(手机游戏)</a>
+                    <a href="/video/av14154209/" target="_blank" class="title" vid="48">命运冠位指定-坑爹的时候到了</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:07</i>
+                    </div>
+                    <div class="up" target="_blank">dadefafaa</div>
+                    <div class="info">。。。</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154207/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/b8d61f6fbecbd90f0da7a59e9cfcff00306c3c2e.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=65">(网络游戏)</a>
+                    <a href="/video/av14154207/" target="_blank" class="title" vid="49">情谊永恒H奥丁P3毁灭术视角_超清</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:07</i>
+                    </div>
+                    <div class="up" target="_blank">skylovesu</div>
+                    <div class="info">从优酷搬运</div>
+                </li>
+                            <li class="l1">
+                    <a href="/video/av14154204/" target="_blank" class="preview">
+                        <img src="//i0.hdslb.com/bfs/archive/3fe4e6bc1c87415ce3070e9dfc3027a25648d124.jpg">
+                    </a>
+                    <a class="typename" href="/newlist.html?typeid=130">(音乐选集)</a>
+                    <a href="/video/av14154204/" target="_blank" class="title" vid="50">【单曲循环】《Fire N Gold》Bea Mi...</a>
+                    <div class="w_info">
+                        <i class="date" title="日期">09/04 10:07</i>
+                    </div>
+                    <div class="up" target="_blank">晴天有鬼</div>
+                    <div class="info">《Fire N Gold》Bea Miller</div>
+                </li>
+                    </ul>
+    </div>
+    <div class="pagelistbox">
+        <a class="p active">1</a>
+<a class="p" href="/newlist.html?page=2">2</a>
+<a class="p" href="/newlist.html?page=3">3</a>
+<a class="p" href="/newlist.html?page=4">4</a>
+<a class="p" href="/newlist.html?page=5">5</a>
+<a class="p" href="/newlist.html?page=6">6</a>
+<a class="p" href="/newlist.html?page=7">7</a>
+<a class="p" href="/newlist.html?page=8">8</a>
+<a class="p" href="/newlist.html?page=9">9</a>
+<a class="p" href="/newlist.html?page=10">10</a>
+<a class="p" href="/newlist.html?page=11">11</a>
+<strong>...</strong><a class="p endPage" href="/newlist.html?page=4378">4378</a>
+<a class="p nextPage" href="/newlist.html?page=2">下一页</a><div class="custom-right"><span class="result custom-right-inner">共 4378 页 ，跳至</span><input type="text" class="b-input custompage custom-right-inner" u="/newlist.html?page=[PAGE]" onkeypress="if(event.keyCode == 13) { if(parseInt($(this).val())>parseInt(4378)){ $(this).val('1') } ;window.location=$(this).attr('u').replace('[PAGE]',$(this).val());}" /><span class="custom-right-inner">页</span></div></div>    </div>
+</div>
+<script type="text/javascript" src="//static.hdslb.com/images/js/newlist.js?2"></script>    </div>
+    <div class="footer">
+    <div class="footer-wrp">
+        <div class="footer-cnt clearfix">
+            <ul class="boston-postcards">
+                <li>
+                  <div class="tips">bilibili</div>
+                  <div class="cards"><a target="_blank" href="//www.bilibili.com/blackboard/aboutUs.html">关于我们</a></div>
+                  <div class="cards"><a target="_blank" href="//www.bilibili.com/blackboard/friends-links.html">友情链接</a></div>
+                  <div class="cards"><a target="_blank" href="//bmall.bilibili.com/#!/">哔哩哔哩周边</a></div>
+                  <div class="cards"><a target="_blank" href="//www.bilibili.com/blackboard/contact.html">联系我们</a></div>
+                  <div class="cards"><a target="_blank" href="//www.bilibili.com/blackboard/join.html">加入我们</a></div>
+                  <div class="cards"><a target="_blank" href="https://account.bilibili.com/site/ident.html">官方认证</a></div>
+                </li>
+                <li>
+                  <div class="tips">传送门</div>
+                  <div class="cards"><a target="_blank" href="//www.bilibili.com/blackboard/help.html">帮助中心</a></div>
+                  <div class="cards"><a target="_blank" href="//www.bilibili.com/video/av120040/">高级弹幕</a></div>
+                  <div class="cards"><a target="_blank" href="//www.bilibili.com/blackboard/activity_list.html">活动专题页</a></div>
+                  <div class="cards"><a target="_blank" href="//www.bilibili.com/blackboard/copyright.html">侵权申诉</a></div>
+                  <div class="cards"><a target="_blank" href="https://account.bilibili.com/answer/addq">分院帽计划</a></div>
+                  <div class="cards"><a target="_blank" href="//activity.bilibili.com/">活动中心</a></div>
+                  <div class="cards"><a target="_blank" href="http://link.acg.tv">用户反馈论坛</a></div>
+                  <div class="cards"><a target="_blank" href="http://h.bilibili.com/wallpaper?action=list">壁纸站</a></div>
+                  <div class="cards"><a target="_blank" href="http://www.bilibili.com/html/cele.html">名人堂</a></div>
+                </li>
+                <li>
+                    <div class="block right">
+                        <a target="_blank" href="//app.bilibili.com/">
+                            <div class="phone">
+                                <div class="pic"></div>
+                                <em>手机端下载</em>
+                                <div class="qrcode-box-wrp">
+                                    <div class="qrcode-box qrcode-app">
+                                        <div class="qrcode-box-arrow">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a target="_blank" href="http://weibo.com/bilibiliweb">
+                            <div class="weibo">
+                                <div class="pic"></div>
+                                <em>新浪微博</em>
+                                <div class="qrcode-box-wrp">
+                                    <div class="qrcode-box qrcode-weibo">
+                                        <div class="qrcode-box-arrow">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a id="weixin">
+                            <div class="weixin">
+                                <div class="pic"></div>
+                                <em>官方微信</em>
+                                <div class="qrcode-box-wrp bigvip-qrcode">
+                                    <div class="qrcode-box qrcode-weixin">
+                                        <div class="qrcode-box-arrow">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <div class="partner">
+                <div class="block left" style="padding-top: 0px;">
+                    <div class="partner-banner"></div>
+                </div>
+                <div class="block left" style="margin: 0px 68px 0 115px;line-height:24px;float: none;">
+                  <p>广播电视节目制作经营许可证：<span>（沪）字第1248号 </span> | 网络文化经营许可证：<span>沪网文[2013]0480-056号</span> | 信息网络传播视听节目许可证：<span>0910417</span> | 互联网ICP备案：<span>沪ICP备13002172号-3</span> 沪ICP证：<span>沪B2-20100043</span> | 违法不良信息举报邮箱：help@bilibili.com | 违法不良信息举报电话：4000233233转3</p>
+                  <p><a href="http://www.shjbzx.cn" target="_blank"><i class="icons-footer icons-footer-report"></i><span> 上海互联网举报中心</span></a> | <a href="http://jb.ccm.gov.cn/" target="_blank">12318 全国文化市场举报网站</a> | <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502001911"><img src="//static.hdslb.com/images/base/beiantubiao.png" style="vertical-align: top;"> 沪公网安备 31011502001911号</a> | <a href="mailto:userreport@bilibili.com">儿童色情信息举报专区</a></p>
+                  <p><a href="http://report.12377.cn:13225/toreportinputNormal_anis.do" target="_blank">网上有害信息举报专区：<img src="//static.hdslb.com/images/12377.png" width="16" height="16" style="vertical-align: sub;"> 中国互联网违法和不良信息举报中心</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">loadLoginStatus();</script>
+<script type="text/javascript" src="//www.bilibili.com/online.js"></script>
+<div style="display:none;">
+    <script type="text/javascript">
+    $(function () {
+        $.ajax({url: '//data.bilibili.com/rec.js', cache: true, dataType: 'script'});
+        $('<scr' + 'ipt type="text/javascript" src="//static.hdslb.com/js/bfd.js" charset="UTF-8"></scri' + 'pt>').appendTo('body');
+//        $('<scr' + 'ipt type="text/javascript" src="//s11.cnzz.com/stat.php?id=2724999&web_id=2724999" charset="UTF-8"></scri' + 'pt>').appendTo('body');
+        $('<scr' + 'ipt type="text/javascript" src="//tajs.qq.com/stats?sId=9156259" charset="UTF-8"></scri' + 'pt>').appendTo('body');
+    });
+    </script>
+
+    <script type="text/javascript">
+      //日志上报
+      window.spmReportData = {}
+      window.reportConfig = {
+        sample : 1,
+        scrollTracker: true,
+        msgObjects : 'spmReportData'
+      }
+      var reportScript = document.createElement('script')
+      reportScript.src = "//s1.hdslb.com/bfs/static/log/report/log-reporter.js"
+      document.getElementsByTagName('body')[0].appendChild(reportScript)
+    </script>
+
+    <script>
+        var cnzz_s_tag = document.createElement('script');
+        cnzz_s_tag.type = 'text/javascript';
+        cnzz_s_tag.async = true;
+        cnzz_s_tag.charset = "utf-8";
+        cnzz_s_tag.src = "https://s11.cnzz.com/stat.php?id=2724999&web_id=2724999&async=1";
+        var root_s = document.getElementsByTagName('script')[0];
+        root_s.parentNode.insertBefore(cnzz_s_tag, root_s);
+    </script>
+
+</div>
+</body>
+</html>
